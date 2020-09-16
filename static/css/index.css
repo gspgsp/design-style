@@ -1,6 +1,7 @@
 .banner-container {
   width: 100%;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  height: 72px; }
   .banner-container .nav-cont {
     min-width: 1200px;
     margin: 0 50px; }
@@ -12,6 +13,14 @@
         float: left;
         background-image: url("../images/logo.jpg");
         background-size: 100%;
-        background-repeat: no-repeat; }
+        background-repeat: no-repeat;
+        margin-top: 15px; }
+    .banner-container .nav-cont .nav-menu li {
+      float: left;
+      margin-right: 200px; }
+      .banner-container .nav-cont .nav-menu li a {
+        display: block;
+        line-height: 72px;
+        color: #4D555D; }
 
 /*# sourceMappingURL=index.css.map */

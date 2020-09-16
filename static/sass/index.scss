@@ -2,6 +2,7 @@
 .banner-container {
   width: 100%;
   background-color: #ffffff;
+  height: 72px;
   .nav-cont {
     min-width: 1200px;
     margin: 0 50px;
@@ -14,6 +15,18 @@
         background-image: url("../images/logo.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
+        margin-top: 15px;
+      }
+    }
+    .nav-menu {
+      li {
+        float: left;
+        margin-right: 200px;
+        a {
+          display: block;
+          line-height: 72px;
+          color: #4D555D;
+        }
       }
     }
   }
