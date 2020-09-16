@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+html, body,
+div, ul, li, ol,
+p, dl, dt, dd,
+h1, h2, h3, h4, h5, h6,
+table, tr, th, td, caption, thead, tbody, tfoot,
+form, label, input, button, select, option,
+iframe, a, img, span, em, i, strong, b, u, center, big, small, sub, sup,
+blockquote, pre,
+abbr, acronym, address, cite, code,
+del, dfn, font {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+}
+
+.nav-l {
+  float: left;
+}
+.nav-r {
+  float: right;
+}

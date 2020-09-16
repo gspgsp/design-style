@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.banner-container {
+  width: 100%;
+  background-color: #ffffff;
+  .nav-cont {
+    min-width: 1200px;
+    margin: 0 50px;
+    .logo-info {
+      width: 500px;
+      .logo-pos {
+        width: 120px;
+        height: 42px;
+        float: left;
+        background-image: url("../images/logo.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
