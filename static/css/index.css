@@ -21,6 +21,8 @@
       .banner-container .nav-cont .nav-menu li a {
         display: block;
         line-height: 72px;
-        color: #4D555D; }
+        color: #4D555D;
+        width: 72px;
+        text-align: center; }
 
 /*# sourceMappingURL=index.css.map */
