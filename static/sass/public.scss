@@ -37,3 +37,11 @@ li {
 a {
   text-decoration: none;
 }
+
+.align-center{
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+}

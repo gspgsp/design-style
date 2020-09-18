@@ -1,0 +1,30 @@
+.banner-container {
+  width: 100%;
+  background-color: #ffffff;
+  height: 77px; }
+  .banner-container .nav-cont {
+    min-width: 1200px;
+    margin: 0 50px; }
+    .banner-container .nav-cont .logo-info {
+      width: 500px; }
+      .banner-container .nav-cont .logo-info .logo-pos {
+        width: 120px;
+        height: 62px;
+        float: left;
+        background-image: url("../images/logo.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 15px; }
+    .banner-container .nav-cont .nav-menu li {
+      float: left;
+      margin-right: 200px; }
+      .banner-container .nav-cont .nav-menu li a {
+        display: block;
+        line-height: 77px;
+        color: #4D555D;
+        width: 72px;
+        text-align: center; }
+      .banner-container .nav-cont .nav-menu li a:hover {
+        background-color: #F5F6F6; }
+
+/*# sourceMappingURL=banner.css.map */
