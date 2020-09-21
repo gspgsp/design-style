@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上海钦虹装饰工程有限公司</title>
+    <link rel="stylesheet" href="../static/css/public.css">
+    <link rel="stylesheet" href="../static/css/banner.css">
+    <link rel="stylesheet" href="../static/css/category.css">
+    <link rel="stylesheet" href="../static/css/element.css">
+    <style>
+        .home{
+            margin-top: 20px;
+        }
+        .home .banner-wrap {
+            width: 1200px;
+            margin: 0 auto;}
+        .home .banner-wrap .banner-img {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        /*.home .banner-wrap .el-carousel__button {*/
+            /*width: 10px;*/
+            /*height: 10px;*/
+            /*border-radius: 50%; }*/
+        .home .banner-wrap .el-carousel__indicator {
+            padding: 30px 6px; }
+        .home .el-carousel__container {
+            height: 100%;
+            padding-bottom: 35.42%; }
+    </style>
+</head>
+<body>
+
+
+
+<!--banner-->
+<div class="banner-container">
+    <div class="nav-cont clear">
+        <div class="nav-l logo-info">
+            <div class="logo-pos">
+
+            </div>
+        </div>
+        <div class="nav-l">
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">客户案例</a></li>
+                    <li><a href="#">我们是谁</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--desc-->
+<div style="width: 1200px;
+            margin: 0 auto;">
+    <div>
+        <h1>上海大名紫金九号楼盘-现代轻奢-123平</h1>
+        <div>
+            <ul>
+                <li>来源: 上海钦虹装饰</li>
+                <li>浏览人数: 510次</li>
+                <li> 更新时间: 2019-12-18 15:15:05</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div style="width: 1200px;
+            margin: 0 auto;">
+    <h1>设计理念</h1>
+    整体案例解读：本案是三口之家，父母偶尔过来居住。风格从年轻男主人的审美角度出发，考虑到小孩，所以在整体偏硬朗的格调里，运用了木饰的搭配，让这个家有木质的笃实与厚重感。进入到整个居住环境里，餐厨区域彼此贯通，最大限度地提高了空间的利用率。厨房的边柜设计，增加了储物功能，U型的操作台面，满足业主做菜，清洗，存放内嵌式烤箱等等的需求。空间动线方面，采用双流动线的设计，将厨房仅有的两扇自然采光面引入室内。用餐区域以素雅的
+</div>
+
+<!--scroll-->
+<div class="home" id="wrapper">
+    <div class="banner-wrap">
+        <el-carousel :interval="5000" arrow="never" trigger="click">
+            <el-carousel-item v-for="(item, index) in banner_list" :key="index">
+                <img :src="item" alt="" class="banner-img">
+            </el-carousel-item>
+        </el-carousel>
+    </div>
+</div>
+
+<div style="width: 1200px;
+            margin: 0 auto;">
+    <input type="text" placeholder="您的称呼">
+    <input type="text" placeholder="您的联系方式">
+    <input type="text" placeholder="楼盘/小区名称">
+    <button>预约装修</button>
+</div>
+
+<div style="width: 1200px;
+            margin: 0 auto;">
+    猜你喜欢
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.9/vue.js"></script>
+<script src="../static/js/element.js"></script>
+<script>
+        var app = new Vue({
+        el: '#wrapper',
+        data: {
+            banner_list: [
+                "https://image.helixlife.cn/edu-cn/other/201909/zjPIpT3r5bTCRtcM2nVmSFG08khj0PlSQ74uvBfw.png",
+                "https://image.helixlife.cn/edu-cn/other/202003/s5PWpEy30QUmatAna5AlY3ApKyR7jTME5APoFn5U.png",
+                "https://image.helixlife.cn/edu-cn/other/201909/zjPIpT3r5bTCRtcM2nVmSFG08khj0PlSQ74uvBfw.png",
+                "https://image.helixlife.cn/edu-cn/other/201909/zjPIpT3r5bTCRtcM2nVmSFG08khj0PlSQ74uvBfw.png",
+                "https://image.helixlife.cn/edu-cn/other/201909/zjPIpT3r5bTCRtcM2nVmSFG08khj0PlSQ74uvBfw.png",
+                "https://image.helixlife.cn/edu-cn/other/201909/zjPIpT3r5bTCRtcM2nVmSFG08khj0PlSQ74uvBfw.png",
+            ]
+        }
+    });
+</script>
+</body>
+</html>

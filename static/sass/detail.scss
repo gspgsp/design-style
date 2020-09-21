@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.home{
+  margin-top: 20px;
+}
+.home .banner-wrap {
+  width: 1200px;
+  margin: 0 auto;}
+.home .banner-wrap .banner-img {
+  width: 100%;
+  height: 100%;
+  display: block; }
+/*.home .banner-wrap .el-carousel__button {*/
+/*width: 10px;*/
+/*height: 10px;*/
+/*border-radius: 50%; }*/
+.home .banner-wrap .el-carousel__indicator {
+  padding: 30px 6px; }
+.home .el-carousel__container {
+  height: 100%;
+  padding-bottom: 35.42%; }
