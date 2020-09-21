@@ -4,6 +4,27 @@
   width: 100%;
   height: 130px;
   background-color: #484848;
+  .category-nav-tit {
+    line-height: 30px;
+    font-size: 24px;
+    color: #ffffff;
+    p{
+      float: left;
+    }
+    span{
+      display: block;
+      width: 15px;
+      height: 24px;
+      float: left;
+    }
+    .category-nav-dot {
+      width: 6px;
+      height: 6px;
+      background-color: #f8fafc;
+      border-radius: 50%;
+      margin: 12px 30px 0 30px;
+    }
+  }
 }
 .category-nav-wrap {
   width: 100%;
@@ -38,6 +59,76 @@
             padding: 0 16px;
             text-align: center;
           }
+        }
+      }
+    }
+    .category-nav-item:last-child{
+      border-bottom: none;
+    }
+  }
+}
+
+.design-list-count {
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 12px;
+  .design-list-wrap {
+    overflow: hidden;
+    .design-list-container {
+      margin-left: -32px;
+      .design-list-item {
+        margin-left:32px;
+        width: 378px;
+        margin-bottom: 36px;
+        overflow: hidden;
+        .design-list-img {
+          width: 100%;
+          height: 230px;
+          display: block;
+          border-radius: 10px;
+        }
+        .item-container {
+          margin: 0 4px;
+          .item-title {
+            margin: 16px 0 20px 0;
+            .item-title-style {
+              line-height: 18px;
+              font-size: 16px;
+              color: #07111B;
+              display: block;
+              cursor: pointer;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              &:hover{
+                color: #2B99A3;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .design-list-order {
+    .design-list-ul {
+      margin: 22px 0 28px 0;
+      li{
+        float: left;
+        margin-right: 18px;
+        a{
+          font-size: 12px;
+          line-height: 24px;
+          display: block;
+          padding: 0 12px;
+          border-radius: 12px;
+        }
+        a:hover{
+          color: #545C63;
+          background: #DFE3E6;
+        }
+        .design-list-ul-act {
+          color: #FEFEFE !important;
+          background: #9199A1 !important;
         }
       }
     }
