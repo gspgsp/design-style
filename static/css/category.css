@@ -51,6 +51,12 @@
             color: #1c1f21;
             padding: 0 16px;
             text-align: center; }
+            .category-nav-wrap .category-nav .category-nav-item .category-nav-choice li a:hover {
+              color: #81D8D0; }
+          .category-nav-wrap .category-nav .category-nav-item .category-nav-choice li .category-nav-choice-active {
+            background: #f0fbfa;
+            color: #81D8D0;
+            border-radius: 10px; }
     .category-nav-wrap .category-nav .category-nav-item:last-child {
       border-bottom: none; }
 

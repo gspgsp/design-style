@@ -58,6 +58,14 @@
             color: #1c1f21;
             padding: 0 16px;
             text-align: center;
+            &:hover{
+              color: #81D8D0;
+            }
+          }
+          .category-nav-choice-active {
+            background: #f0fbfa;
+            color: #81D8D0;
+            border-radius: 10px;
           }
         }
       }
