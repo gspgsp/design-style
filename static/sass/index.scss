@@ -41,6 +41,9 @@
             border-radius: 10px;
           }
         }
+        .content_list_img:hover + .content_list_info .content_list_title .a_title {
+          color: #81D8D0;
+        }
         .content_list_info {
           margin: 0 4px;
           .content_list_title {
@@ -53,6 +56,9 @@
               max-width: 252px;
               font-size: 16px;
               color: #07111B;
+              &:hover{
+                color: #81D8D0;
+              }
             }
           }
         }

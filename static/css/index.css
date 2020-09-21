@@ -31,6 +31,8 @@
           display: block;
           float: left;
           border-radius: 10px; }
+      .content .content_introduce .content_wrap .content_list .content_list_img:hover + .content_list_info .content_list_title .a_title {
+        color: #81D8D0; }
       .content .content_introduce .content_wrap .content_list .content_list_info {
         margin: 0 4px; }
         .content .content_introduce .content_wrap .content_list .content_list_info .content_list_title {
@@ -43,6 +45,8 @@
             max-width: 252px;
             font-size: 16px;
             color: #07111B; }
+            .content .content_introduce .content_wrap .content_list .content_list_info .content_list_title .a_title:hover {
+              color: #81D8D0; }
 
 .foot-wrap {
   min-width: 1200px;
