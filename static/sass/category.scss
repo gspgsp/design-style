@@ -86,6 +86,10 @@
           height: 230px;
           display: block;
           border-radius: 10px;
+          cursor: pointer;
+        }
+        .design-list-img:hover + .item-container .item-title .item-title-style {
+          color: #2B99A3;
         }
         .item-container {
           margin: 0 4px;

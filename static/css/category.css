@@ -71,7 +71,10 @@
           width: 100%;
           height: 230px;
           display: block;
-          border-radius: 10px; }
+          border-radius: 10px;
+          cursor: pointer; }
+        .design-list-count .design-list-wrap .design-list-container .design-list-item .design-list-img:hover + .item-container .item-title .item-title-style {
+          color: #2B99A3; }
         .design-list-count .design-list-wrap .design-list-container .design-list-item .item-container {
           margin: 0 4px; }
           .design-list-count .design-list-wrap .design-list-container .design-list-item .item-container .item-title {
@@ -97,7 +100,8 @@
         line-height: 24px;
         display: block;
         padding: 0 12px;
-        border-radius: 12px; }
+        border-radius: 12px;
+        color: #545C63; }
       .design-list-count .design-list-order .design-list-ul li a:hover {
         color: #545C63;
         background: #DFE3E6; }
