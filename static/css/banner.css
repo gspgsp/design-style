@@ -1,7 +1,9 @@
 .banner-container {
   width: 100%;
   background-color: #ffffff;
-  height: 77px; }
+  height: 77px;
+  border-bottom: none;
+  box-shadow: 0 1px 2px #edecec; }
   .banner-container .nav-cont {
     min-width: 1200px;
     margin: 0 50px; }

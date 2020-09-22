@@ -1,21 +1,177 @@
 @charset "UTF-8";
 
-.home{
-  margin-top: 20px;
-}
-.home .banner-wrap {
+.desc-wrap {
   width: 1200px;
-  margin: 0 auto;}
-.home .banner-wrap .banner-img {
-  width: 100%;
-  height: 100%;
-  display: block; }
-/*.home .banner-wrap .el-carousel__button {*/
-/*width: 10px;*/
-/*height: 10px;*/
-/*border-radius: 50%; }*/
-.home .banner-wrap .el-carousel__indicator {
-  padding: 30px 6px; }
-.home .el-carousel__container {
-  height: 100%;
-  padding-bottom: 35.42%; }
+  margin: 0 auto;
+  .desc-info {
+    margin-top: 20px;
+    text-align: center;
+    .desc-title {
+      color: #333;
+      font-size: 26px;
+      font-weight: 500;
+    }
+    .desc-mark {
+      margin-top: 10px;
+      color: #666666;
+      span{
+        margin-right: 20px;
+        i{
+          color: #999;
+          font-style: normal;
+        }
+      }
+    }
+    .desc-detail {
+      box-shadow: 0 10px 18px #f6f6f6;
+      border: 1px solid #f6f6f6;
+      margin-top: 28px;
+      li {
+        display: inline-block;
+        width: 320px;
+        text-align: center;
+        border-bottom: 1px solid #f1f1f1;
+        &:last-child{
+          border-bottom: none;
+        }
+      }
+      .detail-ca {
+        margin: 10px 0;
+        color: #333;
+        font-size: 14px;
+        a{
+          color: inherit;
+        }
+      }
+      .detail-default {
+        margin-bottom: 20px;
+        color: #999;
+        font-size: 14px;
+      }
+    }
+  }
+  .design-idea {
+    margin: 20px 0;
+    background-color: #fafafa;
+    p{
+      color: #333;
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 30px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #e74c3c;
+      display: inline-block;
+    }
+    .idea-desc {
+      margin-left: 30px;
+      height: 120px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #999;
+      &::-webkit-scrollbar{
+        width: 5px;
+        height: 1px;
+      }
+      &::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        background-color: #636363;
+        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+      }
+      &::-webkit-scrollbar-track{
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        background: #EDEDED;
+      }
+    }
+  }
+
+  .design-effect {
+    margin-top: 20px;
+    background-color: #fafafa;
+    p{
+      color: #333;
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 30px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #e74c3c;
+      display: inline-block;
+    }
+    .banner-wrap{
+      margin:30px auto;
+      box-sizing: border-box;
+      .banner-img {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+      .el-carousel__indicator{
+        padding: 30px 6px;
+      }
+    }
+    .el-carousel__container{
+      height: 100%;
+      padding-bottom: 35.42%;
+    }
+  }
+
+  .contact-wrap {
+    margin: 30px 0;
+    box-shadow: 0 10px 18px #f6f6f6;
+    border: 1px solid #f6f6f6;
+    .contact-w{
+      margin-bottom: 15px;
+      height: 20px;
+      .contact-wel {
+        color: #333;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 20px;
+        &:before{
+          content: '';
+          display: block;
+          float: left;
+          height: 20px;
+          width: 5px;
+          margin: 0 25px 0 0;
+          border-radius: 3px;
+          background: #69DD6E;
+        }
+        .sub-wel {
+          color: #333;
+          font-size: 12px;
+          font-weight: 200;
+          padding-left: 5px;
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+        }
+      }
+    }
+    .contact-method {
+      input{
+        width: 220px;
+        height: 30px;
+        outline: none;
+      }
+      .contact-submit {
+        height: 30px;
+        width: 100px;
+        border-radius: 50px;
+        outline: none;
+        background-color: #FF2435;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .recommend-wrap {
+    margin-top: 30px;
+    height: 300px;
+  }
+}
