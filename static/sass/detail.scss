@@ -156,37 +156,37 @@
     .contact-method {
       input{
         width: 220px;
-        height: 30px;
+        height: 40px;
         outline: none;
-        border: 1px solid #4D555D;
+        border: 1px solid #edecec;
         border-radius: 5px;
         &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-          color: red;
+          color: #d9d9d9;
           font-size: 12px;
           position: relative;
           left: 10px;
         }
         &::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-          color: red;
+          color: #d9d9d9;
           font-size: 12px;
           position: relative;
           left: 10px;
         }
         &::-moz-placeholder { /* Mozilla Firefox 19+ */
-          color: red;
+          color: #d9d9d9;
           font-size: 12px;
           position: relative;
           left: 10px;
         }
         &:-ms-input-placeholder { /* Internet Explorer 10-11 */
-          color: red;
+          color: #d9d9d9;
           font-size: 12px;
           position: relative;
           left: 10px;
         }
       }
       .contact-submit {
-        height: 30px;
+        height: 40px;
         width: 100px;
         border-radius: 50px;
         outline: none;
@@ -194,6 +194,7 @@
         color: #FFFFFF;
         border: none;
         cursor: pointer;
+        margin-left: 10px;
       }
     }
   }
