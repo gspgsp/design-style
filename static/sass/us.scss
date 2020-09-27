@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+.about-wrap {
+  width: 100%;
+  .about-banner {
+    height: 260px;
+    background-image: url("../../static/images/us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .about-banner-tit {
+      color: #FFFFFF;
+      font-size: 34px;
+      line-height: 36px;
+    }
+  }
+  .about-nav-wrap{
+    height: 60px;
+    li{
+      float: left;
+      margin-right: 150px;
+      &:last-child{
+        margin-right: 0;
+      }
+      a{
+        font-size: 16px;
+        color: #4D555D;
+        display: block;
+        line-height: 60px;
+      }
+      .about-nav-a {
+        color: #81D8D0;
+        position: relative;
+        &:after{
+          content: '';
+          width: 100%;
+          height: 4px;
+          background-color: #81D8D0;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+        }
+      }
+    }
+  }
+
+  /*关于我们*/
+  .about-detail-wrap {
+    width: 1200px;
+    margin: 40px auto 0 auto;
+    .about-detail-item {
+      margin-bottom: 40px;
+      .type-tit {
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        color: #1c1f21;
+        padding-left: 10px;
+        margin-bottom: 12px;
+        position: relative;
+        &:before{
+          content: '';
+          width: 4px;
+          height: 14px;
+          background-color: #81d8d0;
+          position: absolute;
+          left: 0;
+          bottom: 1px;
+        }
+      }
+      .type-text {
+        color: #5E666E;
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  /*联系我们*/
+  .contact-us-wrap {
+    margin-top: 40px;
+    .contact-us-box {
+      width: 890px;
+      margin: 0 auto;
+      .contact-map {
+        height: 380px;
+        border: 1px solid;
+      }
+      .contact-us-item {
+        margin-top: 60px;
+        .contact-us-list{
+          margin-bottom: 18px;
+          .contact-us-icon {
+            width: 16px;
+            float: left;
+            display: block;
+          }
+          .contact-us-p {
+            line-height: 16px;
+            font-size: 14px;
+            font-weight: 400;
+            margin-left: 10px;
+            float: left;
+          }
+        }
+      }
+    }
+  }
+}

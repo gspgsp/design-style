@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.about-wrap {
+  width: 100%;
+  /*关于我们*/
+  /*联系我们*/ }
+  .about-wrap .about-banner {
+    height: 260px;
+    background-image: url("../../static/images/us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .about-wrap .about-banner .about-banner-tit {
+      color: #FFFFFF;
+      font-size: 34px;
+      line-height: 36px; }
+  .about-wrap .about-nav-wrap {
+    height: 60px; }
+    .about-wrap .about-nav-wrap li {
+      float: left;
+      margin-right: 150px; }
+      .about-wrap .about-nav-wrap li:last-child {
+        margin-right: 0; }
+      .about-wrap .about-nav-wrap li a {
+        font-size: 16px;
+        color: #4D555D;
+        display: block;
+        line-height: 60px; }
+      .about-wrap .about-nav-wrap li .about-nav-a {
+        color: #81D8D0;
+        position: relative; }
+        .about-wrap .about-nav-wrap li .about-nav-a:after {
+          content: '';
+          width: 100%;
+          height: 4px;
+          background-color: #81D8D0;
+          position: absolute;
+          left: 0;
+          bottom: 0; }
+  .about-wrap .about-detail-wrap {
+    width: 1200px;
+    margin: 40px auto 0 auto; }
+    .about-wrap .about-detail-wrap .about-detail-item {
+      margin-bottom: 40px; }
+      .about-wrap .about-detail-wrap .about-detail-item .type-tit {
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        color: #1c1f21;
+        padding-left: 10px;
+        margin-bottom: 12px;
+        position: relative; }
+        .about-wrap .about-detail-wrap .about-detail-item .type-tit:before {
+          content: '';
+          width: 4px;
+          height: 14px;
+          background-color: #81d8d0;
+          position: absolute;
+          left: 0;
+          bottom: 1px; }
+      .about-wrap .about-detail-wrap .about-detail-item .type-text {
+        color: #5E666E;
+        font-size: 14px;
+        line-height: 24px; }
+  .about-wrap .contact-us-wrap {
+    margin-top: 40px; }
+    .about-wrap .contact-us-wrap .contact-us-box {
+      width: 890px;
+      margin: 0 auto; }
+      .about-wrap .contact-us-wrap .contact-us-box .contact-map {
+        height: 380px;
+        border: 1px solid; }
+      .about-wrap .contact-us-wrap .contact-us-box .contact-us-item {
+        margin-top: 60px; }
+        .about-wrap .contact-us-wrap .contact-us-box .contact-us-item .contact-us-list {
+          margin-bottom: 18px; }
+          .about-wrap .contact-us-wrap .contact-us-box .contact-us-item .contact-us-list .contact-us-icon {
+            width: 16px;
+            float: left;
+            display: block; }
+          .about-wrap .contact-us-wrap .contact-us-box .contact-us-item .contact-us-list .contact-us-p {
+            line-height: 16px;
+            font-size: 14px;
+            font-weight: 400;
+            margin-left: 10px;
+            float: left; }
+
+/*# sourceMappingURL=us.css.map */
