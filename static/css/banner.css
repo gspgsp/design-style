@@ -29,4 +29,36 @@
       .banner-container .nav-cont .nav-menu li a:hover {
         background-color: #F5F6F6; }
 
+.detail-nav {
+  width: 100%;
+  background-color: #191919;
+  height: 77px;
+  border-bottom: none;
+  box-shadow: 0 1px 2px #edecec; }
+  .detail-nav .nav-cont {
+    min-width: 1200px;
+    margin: 0 50px; }
+    .detail-nav .nav-cont .logo-info {
+      width: 500px; }
+      .detail-nav .nav-cont .logo-info .logo-pos {
+        width: 120px;
+        height: 62px;
+        float: left;
+        background-image: url("../images/logo.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 15px; }
+    .detail-nav .nav-cont .nav-menu li {
+      float: left;
+      margin-right: 200px; }
+      .detail-nav .nav-cont .nav-menu li a {
+        display: block;
+        line-height: 77px;
+        color: #9ca0a4 !important;
+        width: 72px;
+        text-align: center; }
+      .detail-nav .nav-cont .nav-menu li a:hover {
+        color: #FFFFFF !important;
+        background: #1a2120 !important; }
+
 /*# sourceMappingURL=banner.css.map */

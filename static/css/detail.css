@@ -1,6 +1,16 @@
 .desc-wrap {
   width: 1200px;
   margin: 0 auto; }
+  .desc-wrap .desc-nav {
+    color: #999;
+    padding: 20px 0;
+    font-size: 16px; }
+    .desc-wrap .desc-nav a {
+      color: inherit; }
+      .desc-wrap .desc-nav a:hover {
+        color: #333; }
+    .desc-wrap .desc-nav span:last-child {
+      color: #333; }
   .desc-wrap .desc-info {
     margin-top: 20px;
     text-align: center; }

@@ -39,3 +39,44 @@
     }
   }
 }
+
+.detail-nav {
+  width: 100%;
+  background-color: #191919;
+  height: 77px;
+  border-bottom: none;
+  box-shadow: 0 1px 2px #edecec;
+  .nav-cont {
+    min-width: 1200px;
+    margin: 0 50px;
+    .logo-info {
+      width: 500px;
+      .logo-pos {
+        width: 120px;
+        height: 62px;
+        float: left;
+        background-image: url("../images/logo.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 15px;
+      }
+    }
+    .nav-menu {
+      li {
+        float: left;
+        margin-right: 200px;
+        a {
+          display: block;
+          line-height: 77px;
+          color: #9ca0a4 !important;
+          width: 72px;
+          text-align: center;
+        }
+        a:hover{
+          color: #FFFFFF!important;
+          background: rgba(26, 33, 32, 1)!important;
+        }
+      }
+    }
+  }
+}
