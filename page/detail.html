@@ -12,7 +12,7 @@
 <body>
 
 <!--banner-->
-<div class="banner-container detail-nav">
+<div class="banner-container">
     <div class="nav-cont clear">
         <div class="nav-l logo-info">
 
@@ -33,70 +33,84 @@
 </div>
 
 <!--desc-->
+<div class="desc-nav-wrap">
+    <div class="desc-nav clear">
+        <div class="desc-nav-l nav-l">
+            <span>当前位置：</span>
+            <a href="#">首页</a>
+            <span>\</span>
+            <a href="#">设计方案</a>
+            <span>\</span>
+            <span>现代轻奢-123平-三居室</span>
+        </div>
+        <div class="desc-nav-r nav-r">
+            <div class="collect-cont">
+                <div class="collect-cont-icon"></div>
+                <span>收藏</span>
+            </div>
+            <div class="share-cont">
+                <div class="share-cont-icon"></div>
+                <span>分享</span>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="desc-wrap">
-    <div class="desc-nav">
-        <span>当前位置：</span>
-        <a href="#">首页</a>
-        <span>\</span>
-        <a href="#">设计方案</a>
-        <span>\</span>
-        <span>上海汤城豪园九号楼盘-现代轻奢-123平</span>
-    </div>
-    <div class="desc-info">
-        <h1 class="desc-title">上海汤城豪园九号楼盘-现代轻奢-123平</h1>
-        <div class="desc-mark">
-            <span><i>来源:</i> 上海钦虹装饰</span>
-            <span><i>浏览人数:</i> 510次</span>
-            <span><i>更新时间:</i> 2019-12-18 15:15:05</span>
+    <div class="desc-info clear">
+        <!--scroll-->
+        <div class="design-effect" id="wrapper">
+            <div class="banner-wrap">
+                <el-carousel :interval="5000" arrow="never" trigger="click">
+                    <el-carousel-item v-for="(item, index) in banner_list" :key="index">
+                        <img :src="item" alt="" class="banner-img">
+                    </el-carousel-item>
+                </el-carousel>
+            </div>
         </div>
-        <div class="desc-detail">
-            <ul>
-                <li>
-                    <p class="detail-ca"><a href="#" target="_blank">轻奢</a></p>
-                    <p class="detail-default">案例风格</p>
-                </li>
-                <li>
-                    <p class="detail-ca"><a href="#" target="_blank">三居室</a></p>
-                    <p class="detail-default">案例户型</p>
-                </li>
-                <li>
-                    <p class="detail-ca"><a href="#" target="_blank">123平米</a></p>
-                    <p class="detail-default">案例面积</p>
-                </li>
-                <li>
-                    <p class="detail-ca"><a href="#" target="_blank">--</a></p>
-                    <p class="detail-default">楼盘名称</p>
-                </li>
-                <li>
-                    <p class="detail-ca"><a href="#" target="_blank">上海</a></p>
-                    <p class="detail-default">所在城市</p>
-                </li>
-                <li>
-                    <p class="detail-ca"><a href="#" target="_blank">Jerry</a></p>
-                    <p class="detail-default">设计师</p>
-                </li>
-
-
-            </ul>
-        </div>
-    </div>
-
-    <div class="design-idea">
-        <p>设计理念</p>
-        <div class="idea-desc">
-            整体案例解读：本案是三口之家，父母偶尔过来居住。风格从年轻男主人的审美角度出发，考虑到小孩，所以在整体偏硬朗的格调里，运用了木饰的搭配，让这个家有木质的笃实与厚重感。进入到整个居住环境里，餐厨区域彼此贯通，最大限度地提高了空间的利用率。厨房的边柜设计，增加了储物功能，U型的操作台面，满足业主做菜，清洗，存放内嵌式烤箱等等的需求。空间动线方面，采用双流动线的设计，将厨房仅有的两扇自然采光面引入室内。用餐区域以素雅的整体案例解读：本案是三口之家，父母偶尔过来居住。风格从年轻男主人的审美角度出发，考虑到小孩，所以在整体偏硬朗的格调里，运用了木饰的搭配，让这个家有木质的笃实与厚重感。进入到整个居住环境里，餐厨区域彼此贯通，最大限度地提高了空间的利用率。厨房的边柜设计，增加了储物功能，U型的操作台面，满足业主做菜，清洗，存放内嵌式烤箱等等的需求。空间动线方面，采用双流动线的设计，将厨房仅有的两扇自然采光面引入室内。用餐区域以素雅的整体案例解读：本案是三口之家，父母偶尔过来居住。风格从年轻男主人的审美角度出发，考虑到小孩，所以在整体偏硬朗的格调里，运用了木饰的搭配，让这个家有木质的笃实与厚重感。进入到整个居住环境里，餐厨区域彼此贯通，最大限度地提高了空间的利用率。厨房的边柜设计，增加了储物功能，U型的操作台面，满足业主做菜，清洗，存放内嵌式烤箱等等的需求。空间动线方面，采用双流动线的设计，将厨房仅有的两扇自然采光面引入室内。用餐区域以素雅的整体案例解读：本案是三口之家，父母偶尔过来居住。风格从年轻男主人的审美角度出发，考虑到小孩，所以在整体偏硬朗的格调里，运用了木饰的搭配，让这个家有木质的笃实与厚重感。进入到整个居住环境里，餐厨区域彼此贯通，最大限度地提高了空间的利用率。厨房的边柜设计，增加了储物功能，U型的操作台面，满足业主做菜，清洗，存放内嵌式烤箱等等的需求。空间动线方面，采用双流动线的设计，将厨房仅有的两扇自然采光面引入室内。用餐区域以素雅的
-        </div>
-    </div>
-
-    <!--scroll-->
-    <div class="design-effect" id="wrapper">
-        <p>设计效果图</p>
-        <div class="banner-wrap">
-            <el-carousel :interval="5000" arrow="never" trigger="click">
-                <el-carousel-item v-for="(item, index) in banner_list" :key="index">
-                    <img :src="item" alt="" class="banner-img">
-                </el-carousel-item>
-            </el-carousel>
+        <div class="design-idea">
+            <div class="design-idea-wrap">
+                <h1 class="desc-title">现代轻奢-123平-三居室</h1>
+                <div class="desc-mark">
+                    <span><i>来源:</i> 上海钦虹装饰</span>
+                    <span><i>浏览次数:</i> 510次</span>
+                    <span><i>更新时间:</i> 2019-12-18</span>
+                </div>
+                <div class="desc-detail">
+                    <ul class="desc-detail-ul">
+                        <li>
+                            <p class="detail-ca"><a href="#" target="_blank">轻奢</a></p>
+                            <p class="detail-default">案例风格</p>
+                        </li>
+                        <li>
+                            <p class="detail-ca"><a href="#" target="_blank">三居室</a></p>
+                            <p class="detail-default">案例户型</p>
+                        </li>
+                        <li>
+                            <p class="detail-ca"><a href="#" target="_blank">123平米</a></p>
+                            <p class="detail-default">案例面积</p>
+                        </li>
+                        <li>
+                            <p class="detail-ca"><a href="#" target="_blank">--</a></p>
+                            <p class="detail-default">楼盘名称</p>
+                        </li>
+                        <li>
+                            <p class="detail-ca"><a href="#" target="_blank">上海</a></p>
+                            <p class="detail-default">所在城市</p>
+                        </li>
+                        <li>
+                            <p class="detail-ca"><a href="#" target="_blank">Jerry</a></p>
+                            <p class="detail-default">设计师</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="idea-desc">
+                    <h4>
+                        <b>案例解析：</b>
+                        创新户型，全明设计。南北通厅，任由清风自由穿行，双南卧室，南客厅，享受更多阳光的宠爱，封闭式厨房，拥有独立的烹饪空间，保持了客餐厅的空气清新。
+                    </h4>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -104,17 +118,17 @@
         <div class="contact-w">
             <p class="contact-wel">舒适生活，源自好的设计<span class="sub-wel">马上联系设计师吧</span></p>
         </div>
-        <div class="contact-method">
-            <input type="text" placeholder="您的称呼">
-            <input type="text" placeholder="您的联系方式">
-            <input type="text" placeholder="楼盘/小区名称">
+            <div class="contact-method">
+                <input type="text" placeholder="您的称呼">
+                <input type="text" placeholder="您的联系方式">
+                <input type="text" placeholder="楼盘/小区名称">
             <button class="contact-submit">预约装修</button>
         </div>
     </div>
 
     <div class="recommend-wrap">
         <div class="recommend-w">
-            <p class="recommend-wel">相关推荐</p>
+            <p class="recommend-wel">更多方案</p>
         </div>
         <div class="design-list-count">
             <div class="design-list-wrap">
@@ -122,49 +136,49 @@
                     <div class="design-list-item nav-l">
                         <img src="../static/images/ca-1.jpg" alt="" class="design-list-img">
                         <div class="item-container">
-                            <div class="item-title">
-                                <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
-                            </div>
+                        <div class="item-title">
+                        <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
+                        </div>
                         </div>
                     </div>
                     <div class="design-list-item nav-l">
                         <img src="../static/images/ca-1.jpg" alt="" class="design-list-img">
                         <div class="item-container">
-                            <div class="item-title">
-                                <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
-                            </div>
+                        <div class="item-title">
+                        <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
+                        </div>
                         </div>
                     </div>
                     <div class="design-list-item nav-l">
                         <img src="../static/images/ca-1.jpg" alt="" class="design-list-img">
                         <div class="item-container">
-                            <div class="item-title">
-                                <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
-                            </div>
+                        <div class="item-title">
+                        <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
+                        </div>
                         </div>
                     </div>
                     <div class="design-list-item nav-l">
                         <img src="../static/images/ca-1.jpg" alt="" class="design-list-img">
                         <div class="item-container">
-                            <div class="item-title">
-                                <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
-                            </div>
+                        <div class="item-title">
+                        <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
+                        </div>
                         </div>
                     </div>
                     <div class="design-list-item nav-l">
                         <img src="../static/images/ca-1.jpg" alt="" class="design-list-img">
                         <div class="item-container">
-                            <div class="item-title">
-                                <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
-                            </div>
+                        <div class="item-title">
+                        <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
+                        </div>
                         </div>
                     </div>
                     <div class="design-list-item nav-l">
                         <img src="../static/images/ca-1.jpg" alt="" class="design-list-img">
                         <div class="item-container">
-                            <div class="item-title">
-                                <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
-                            </div>
+                        <div class="item-title">
+                        <a href="#" class="item-title-style">三居室-轻奢-儿童房效果图</a>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -184,7 +198,8 @@
                 "../static/images/d1.jpg",
                 "../static/images/d2.jpg",
                 "../static/images/d3.jpg",
-
+                "../static/images/d4.jpg",
+                "../static/images/d5.jpg"
             ]
         }
     });
