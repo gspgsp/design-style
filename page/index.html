@@ -100,6 +100,21 @@
     </div>
 </div>
 
+<!--contact-->
+<div class="contact-price">
+    <div class="contact-price-wrap">
+        <div class="contact-price-limit">
+            <form action="javascript:;" class="contact-price-form clear">
+                <input type="text" placeholder="您的称呼">
+                <input type="text" placeholder="您的联系方式">
+                <input type="text" placeholder="楼盘/小区名称">
+                <input type="text" placeholder="房屋面积">
+                <button>获取报价</button>
+            </form>
+        </div>
+    </div>
+</div>
+
 <div class="foot-wrap">
     <div class="foot-count">
         <div>
@@ -108,5 +123,25 @@
         </div>
     </div>
 </div>
+<script type="text/javascript" src="../static/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+
+    $(window).scroll(function () {
+
+        var scrollTop = document.documentElement.scrollTop||document.body.scrollTop;
+        var b_height = document.body.offsetHeight;
+        var c_height = document.documentElement.clientHeight;
+
+        console.log(scrollTop);
+
+        if(scrollTop >= b_height-c_height-120 || scrollTop < 200 )
+        {
+            $('.contact-price').hide();
+        }else {
+            $('.contact-price').show();
+        }
+    });
+
+</script>
 </body>
 </html>

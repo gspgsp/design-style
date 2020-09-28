@@ -67,6 +67,81 @@
   }
 }
 
+.contact-price {
+  height: 170px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+  .contact-price-wrap {
+    height: 140px;
+    width: 100%;
+    background: #191919;
+    .contact-price-limit {
+      width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      .contact-price-form {
+        width: 670px;
+        position: absolute;
+        height: 90px;
+        top: 15px;
+        left: 304px;
+        input{
+          display: inline-block;
+          width: 35%;
+          height: 40px;
+          float: left;
+          margin:8px;
+          outline: none;
+          &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+            color: #999;
+            font-size: 12px;
+            position: relative;
+            left: 10px;
+          }
+          &::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+            color: #999;
+            font-size: 12px;
+            position: relative;
+            left: 10px;
+          }
+          &::-moz-placeholder { /* Mozilla Firefox 19+ */
+            color: #999;
+            font-size: 12px;
+            position: relative;
+            left: 10px;
+          }
+          &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #999;
+            font-size: 12px;
+            position: relative;
+            left: 10px;
+          }
+        }
+        button{
+          display: inline-block;
+          color: #fff;
+          background-color: #FF2435;
+          outline: none;
+          border: none;
+          width: 45px;
+          height: 45px;
+          padding: 30px 44px;
+          word-break: break-all;
+          box-sizing: content-box;
+          white-space: normal;
+          font-size: 18px;
+          margin: 8px;
+          line-height: 24px;
+          letter-spacing: 4px;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
 .foot-wrap {
   min-width: 1200px;
   margin-top: 100px;
