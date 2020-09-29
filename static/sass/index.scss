@@ -136,6 +136,25 @@
           line-height: 24px;
           letter-spacing: 4px;
           position: absolute;
+          cursor: pointer;
+        }
+      }
+      .close {
+        background: #FFFFFF;
+        color: #333333;
+        border-radius: 12px;
+        line-height: 20px;
+        text-align: center;
+        height: 20px;
+        width: 40px;
+        font-size: 12px;
+        padding: 1px;
+        top: -10px;
+        right: -10px;
+        position: absolute;
+        cursor: pointer;
+        &:before{
+          content: "\2716";
         }
       }
     }

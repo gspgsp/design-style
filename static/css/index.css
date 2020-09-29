@@ -115,7 +115,24 @@
           margin: 8px;
           line-height: 24px;
           letter-spacing: 4px;
-          position: absolute; }
+          position: absolute;
+          cursor: pointer; }
+      .contact-price .contact-price-wrap .contact-price-limit .close {
+        background: #FFFFFF;
+        color: #333333;
+        border-radius: 12px;
+        line-height: 20px;
+        text-align: center;
+        height: 20px;
+        width: 40px;
+        font-size: 12px;
+        padding: 1px;
+        top: -10px;
+        right: -10px;
+        position: absolute;
+        cursor: pointer; }
+        .contact-price .contact-price-wrap .contact-price-limit .close:before {
+          content: "\2716"; }
 
 .foot-wrap {
   min-width: 1200px;
