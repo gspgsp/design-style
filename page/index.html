@@ -131,7 +131,8 @@
     $(function () {
         $(window).scroll(function () {
 
-            var scrollTop = document.documentElement.scrollTop||document.body.scrollTop;
+            // var scrollTop = document.documentElement.scrollTop||document.body.scrollTop;
+            var scrollTop = $(this).scrollTop(); //这个和上面的效果相同
             var b_height = document.body.offsetHeight;
             var c_height = document.documentElement.clientHeight;
 
