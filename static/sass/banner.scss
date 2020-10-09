@@ -37,6 +37,20 @@
         }
       }
     }
+    .nav-login-ul{
+      display: flex;
+      justify-content: space-between;
+      li{
+        margin-right: 10px;
+        a, span {
+          display: block;
+          line-height: 77px;
+          color: #4D555D;
+          text-align: center;
+        }
+
+      }
+    }
   }
 }
 

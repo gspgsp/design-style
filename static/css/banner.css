@@ -28,6 +28,16 @@
         text-align: center; }
       .banner-container .nav-cont .nav-menu li a:hover {
         background-color: #F5F6F6; }
+    .banner-container .nav-cont .nav-login-ul {
+      display: flex;
+      justify-content: space-between; }
+      .banner-container .nav-cont .nav-login-ul li {
+        margin-right: 10px; }
+        .banner-container .nav-cont .nav-login-ul li a, .banner-container .nav-cont .nav-login-ul li span {
+          display: block;
+          line-height: 77px;
+          color: #4D555D;
+          text-align: center; }
 
 .detail-nav {
   width: 100%;

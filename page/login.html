@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上海钦虹装饰工程有限公司</title>
+    <link rel="stylesheet" href="../static/css/public.css">
+    <link rel="stylesheet" href="../static/css/banner.css">
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>
+<div class="login-box">
+    <div class="login-wrapper">
+        <div class="login-bac"></div>
+        <div class="login-lg">
+            <!--三种登录方式-->
+            <div class="login-lg-tit">登录</div>
+            <!--账号密码登录-->
+            <div class="input-cont-wid account-password" style="display: block;">
+                <div class="input-cont">
+                    <input type="text" placeholder="手机号或者邮箱" class="login-input-style">
+                    <p class="hint-p"></p>
+                </div>
+                <div class="passd-cont">
+                    <input type="password" class="login-input-style" placeholder="请输入密码">
+                    <div class="password-img">
+                        <div class="eye_c"></div>
+                        <div class="eye_o"></div>
+                    </div>
+                    <p class="hint-p"></p>
+                </div>
+                <div class="set-cont">
+                    <div>
+                        <label for="A">
+                            <input type="checkbox" checked id="A" class="checkbox">
+                            <s></s><span class="rem-t">记住密码</span>
+                        </label>
+                    </div>
+                    <div>
+                        <a href="#" class="find-t">找回密码?</a>
+                    </div>
+                </div>
+                <input type="button" value="登录" class="login-but">
+            </div>
+
+            <!--手机号验证码登录-->
+            <div class="input-cont-wid login-verification" style="display: none;">
+                <div class="input-cont">
+                    <input type="text" placeholder="手机号" class="login-input-style">
+                    <p class="hint-p"></p>
+                </div>
+                <div class="passd-cont">
+                    <input type="password" class="login-input-style" placeholder="请输入密码">
+                    <div class="password-img">
+                        <p class="js-signin-send">获取验证码</p>
+                        <p class="js-signin-get" style="display: none;">重新发送60</p>
+                    </div>
+                    <p class="hint-p"></p>
+                </div>
+                <div class="set-cont">
+                    <div style="height: 20px"></div>
+                </div>
+                <input type="button" value="登录" class="login-but">
+            </div>
+
+            <!--二维码登录同时需要绑定手机号操作-->
+            <div class="input-cont-wid wechat-cont" style="display: none;">
+                <div class="scan-code">
+                    <img src="../static/images/jie.png" alt="">
+                </div>
+                <p class="scan-code-t">请使用微信扫描二维码登录</p>
+            </div>
+
+            <div class="input-cont-wid phone-binding" style="display: none; ">
+                <div class="binding-hint-cont">
+                    <div class="bind-tit-cont">
+                        <p class="bind-tit">绑定手机号</p>
+                        <p>通过绑定手机号提高帐号安全</p>
+                    </div>
+                    <div class="bind-tit-img">
+                        <img src="../static/images/tou.jpeg" alt="">
+                    </div>
+                </div>
+                <!--手机号验证码-->
+                <div class="input-cont">
+                    <input type="text" placeholder="手机号" class="login-input-style">
+                    <p class="hint-p"></p>
+                </div>
+                <div class="passd-cont">
+                    <input type="password" class="login-input-style" placeholder="请输入密码">
+                    <div class="password-img">
+                        <p class="js-signin-send">获取验证码</p>
+                        <p class="js-signin-get" style="display: none;">重新发送60</p>
+                    </div>
+                    <p class="hint-p"></p>
+                </div>
+                <input type="button" value="登录" class="login-but">
+                <div class="error-bind" style="display: none;">无法绑定</div>
+            </div>
+
+            <!--注册操作-->
+            <div class="input-cont-wid register-ver-cont" style="display: none;">
+                <div class="input-cont">
+                    <input type="text" maxlength="50" class="login-input-style" placeholder="请输入手机号" >
+                    <!--输入提示信息-->
+                    <p class="hint-p"></p>
+                </div>
+                <div class="passd-cont">
+                    <input type="text" class="login-input-style" placeholder="请输入验证码" >
+                    <!--显示密码图片操作-->
+                    <div class="password-img">
+                        <div class="get-verify-cont">
+                            <div class="get-verify-but"></div>
+                            <div class="get-verify-img">
+                                <img src="https://www.imooc.com/passport/user/verifycode?t=1550133953352" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!--输入提示信息-->
+                    <p class="hint-p"></p>
+                </div>
+                <!--操作方式-->
+                <div class="set-cont">
+                    <div>
+                        <label for="B">
+                            <input type="checkbox" checked id="B" class="checkbox" value="B">
+                            <s></s><span class="rem-t">同意<a href="javascript:;" class="agreement-t">解螺旋注册协议</a></span>
+                        </label>
+                    </div>
+                </div>
+                <!--注册按钮-->
+                <input type="button" value="注册" class="login-but">
+            </div>
+
+            <!--填些密码-->
+            <div class="input-cont-wid register-set-pad" style="display: none;">
+                <div class="register-set-pad-t">填写短信验证码密码完成注册</div>
+                <div class="register-tips">
+                    短信验证码已发送至 <span class="phone-num">+86 182387976659</span>
+                </div>
+
+                <div class="passd-cont">
+                    <input type="text" class="login-input-style" placeholder="输入验证码" >
+                    <!--显示密码图片操作-->
+                    <div class="password-img reg-verify-top">
+                        <p class="js-signin-send" style="display: none">获取验证码</p>
+                        <p class="js-signin-get" >重新发送60</p>
+                    </div>
+                    <!--输入提示信息-->
+                    <p class="hint-p reg-code-num-hint"></p>
+                </div>
+
+                <div class="passd-cont">
+                    <input type="password" class="login-input-style" placeholder="输入密码" >
+                    <!--显示密码图片操作-->
+                    <div class="password-img reg-eye-top">
+                        <div class="eye_c"></div>
+                        <div class="eye_o"></div>
+                    </div>
+                    <!--输入提示信息-->
+                    <p class="hint-p reg-pad-hint-p"></p>
+                </div>
+
+                <!--注册按钮-->
+                <input type="button" value="完成" class="login-but complete-reg-but">
+
+                <!--返回修改信息-->
+                <div class="back-modi register-set-pad-bac">返回修改手机号</div>
+            </div>
+
+
+            <!--TODO登录方式切换内容-->
+
+
+
+
+
+
+
+
+        </div>
+        <div class="login-r">
+            <div class="l-but-cont">
+                <div class="but-but">注册</div>
+                <div class="but-but" style="display: none;">登录</div>
+            </div>
+        </div>
+        <div class="close-cont"></div>
+    </div>
+</div>
+</body>
+</html>

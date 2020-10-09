@@ -43,4 +43,17 @@ a {
 .min-height {
   height: 859px; }
 
+.hint-p {
+  position: absolute;
+  top: 0;
+  height: 42px;
+  line-height: 42px;
+  text-indent: 16px;
+  font-size: 14px;
+  color: #F20D0D;
+  border-radius: 10px;
+  opacity: 1;
+  cursor: text;
+  background: #f6f5f9; }
+
 /*# sourceMappingURL=public.css.map */

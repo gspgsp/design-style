@@ -1,0 +1,332 @@
+@charset "UTF-8";
+.login-box {
+  width: 100%;
+  height: 100%; }
+
+.login-wrapper {
+  width: 648px;
+  height: 380px;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto; }
+
+.login-bac {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../static/images/l-pop-up-bac.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 5; }
+
+/*
+*整个操作都在这个div里面
+*/
+.login-lg {
+  width: 384px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+
+.login-lg-tit {
+  font-size: 18px;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 18px;
+  font-weight: bold;
+  text-indent: 10px;
+  color: #48291a; }
+
+.input-cont-wid {
+  width: 312px;
+  margin: 40px auto 0 auto;
+  background-color: #fff;
+  display: none; }
+
+.account-password {
+  margin: 40px auto 35px auto; }
+
+.input-cont {
+  position: relative; }
+
+.login-input-style {
+  width: 312px;
+  height: 42px;
+  line-height: 42px;
+  background: #f6f5f9;
+  outline: none;
+  display: block;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  text-indent: 16px;
+  /*set 前边距*/
+  color: #1C1F21; }
+  .login-input-style::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #9199A1;
+    font-size: 14px; }
+  .login-input-style::-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #9199A1;
+    font-size: 14px; }
+  .login-input-style::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #9199A1;
+    font-size: 14px; }
+  .login-input-style:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #9199A1;
+    font-size: 14px; }
+
+.passd-cont {
+  margin-top: 22px;
+  position: relative; }
+
+.password-img {
+  position: absolute;
+  top: 15px;
+  right: 16px; }
+  .password-img .eye_c {
+    width: 22px;
+    height: 13px;
+    background-image: url("../images/eye_z02.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer; }
+    .password-img .eye_c:hover {
+      background-image: url("../images/eye_z01.png"); }
+  .password-img .eye_o {
+    width: 22px;
+    height: 13px;
+    background-image: url("../images/eye_c02.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    display: none; }
+    .password-img .eye_o:hover {
+      background-image: url("../images/eye_c01.png"); }
+
+.set-cont {
+  margin-top: 16px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between; }
+  .set-cont .checkbox {
+    display: none; }
+    .set-cont .checkbox[type=checkbox] + s {
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      vertical-align: middle;
+      background-image: url("../images/jizhu.png");
+      background-repeat: no-repeat;
+      background-size: 100%; }
+    .set-cont .checkbox[type=checkbox]:checked + s {
+      background-image: url("../images/jizhu-a.png"); }
+  .set-cont .rem-t {
+    margin-left: 6px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #787d82;
+    display: inline-block;
+    vertical-align: middle; }
+  .set-cont .find-t {
+    line-height: 14px;
+    font-size: 14px;
+    color: #787d82; }
+
+.login-but {
+  display: block;
+  cursor: pointer;
+  outline: none;
+  margin: 28px auto 0 auto;
+  color: #ffffff;
+  border: none;
+  width: 160px;
+  height: 42px;
+  border-radius: 21px;
+  background: linear-gradient(45deg, red, yellow);
+  box-shadow: 0px 2px 17px 1px rgba(20, 14, 32, 0.1); }
+
+/*
+*登录页右边样式
+*/
+.login-r {
+  transition: right .75s, width .4s;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  width: 264px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("../images/login-gradual-bac.png");
+  background-repeat: no-repeat;
+  background-position: -384px 0; }
+  .login-r .l-but-cont {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 94px;
+    z-index: 10; }
+
+.but-but {
+  text-align: center;
+  width: 160px;
+  height: 42px;
+  border: 1px solid white;
+  margin: 0 auto;
+  line-height: 42px;
+  border-radius: 21px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  transition: width .4s;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); }
+
+.close-cont {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/l-close-w.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 18px;
+  right: 21px;
+  cursor: pointer; }
+
+.login-verification .js-signin-send, .phone-binding .js-signin-send, .register-set-pad .js-signin-send {
+  color: #81D8D0;
+  cursor: pointer; }
+.login-verification .js-signin-get, .phone-binding .js-signin-get, .register-set-pad .js-signin-get {
+  color: #787D82; }
+.login-verification .password-img, .phone-binding .password-img, .register-set-pad .password-img {
+  top: 11px; }
+  .login-verification .password-img p, .phone-binding .password-img p, .register-set-pad .password-img p {
+    font-size: 14px;
+    font-weight: 400; }
+
+.wechat-cont {
+  margin: 30px auto 40px auto; }
+
+.scan-code {
+  width: 168px;
+  height: 168px;
+  margin: 0 auto; }
+  .scan-code img {
+    width: 100%;
+    height: 100%;
+    display: block; }
+
+.scan-code-t {
+  margin: 25px auto 0 auto;
+  text-align: center;
+  font-size: 16px;
+  color: #717A84; }
+
+.binding-hint-cont {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 34px;
+  justify-content: space-between; }
+
+.bind-tit-cont {
+  font-size: 14px;
+  line-height: 14px;
+  color: #787D82; }
+  .bind-tit-cont .bind-tit {
+    font-size: 18px;
+    line-height: 18px;
+    color: #1C1F21;
+    margin-bottom: 10px; }
+
+.bind-tit-img {
+  width: 44px;
+  height: 44px; }
+  .bind-tit-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 22px; }
+
+.error-bind {
+  margin-top: 44px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9199A1; }
+
+.get-verify-cont .get-verify-but {
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/sx01.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: transform .3s;
+  display: inline-block;
+  vertical-align: middle; }
+  .get-verify-cont .get-verify-but:hover {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transition: transform .3s;
+    background-image: url("../images/sx02.png"); }
+.get-verify-cont .get-verify-img {
+  width: 70px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer; }
+  .get-verify-cont .get-verify-img img {
+    width: 100%;
+    height: 100%;
+    display: block; }
+
+.register-ver-cont {
+  margin: 40px auto 35px auto; }
+  .register-ver-cont .password-img {
+    top: 6px; }
+
+.agreement-t {
+  color: #81D8D0;
+  margin-left: 5px; }
+
+.register-set-pad {
+  margin-top: 24px; }
+  .register-set-pad .register-set-pad-t {
+    font-size: 16px;
+    line-height: 16px;
+    color: #1C1F21;
+    text-align: center; }
+  .register-set-pad .register-tips {
+    text-align: center;
+    color: #1C1F21;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px; }
+
+.phone-num {
+  margin-left: 5px;
+  color: #1C1F21; }
+
+.back-modi {
+  text-align: center;
+  margin-top: 10px;
+  color: #787D82;
+  font-size: 14px;
+  line-height: 14px; }
+
+/*# sourceMappingURL=login.css.map */
