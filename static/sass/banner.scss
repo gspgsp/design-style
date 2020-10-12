@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "theme";
 
 .banner-container {
   width: 100%;
@@ -49,6 +50,110 @@
           text-align: center;
         }
 
+      }
+    }
+    .after-login{
+      display: flex;
+      align-items: center;
+      height: 77px;
+      .news-cont{
+        margin: 0 20px 0 30px;
+        position: relative;
+        img{
+          width: 24px;
+          display: block;
+        }
+        .news-hint-box {
+          position: absolute;
+          top: 0;
+          right: -5px;
+          content: '';
+          width: 8px;
+          height: 8px;
+          display: block;
+          border-radius: 4px;
+          background-color: #F20D0D;
+        }
+      }
+      .user-head-portrait{
+        position: relative;
+        &:hover{
+          .user-nav-box{
+            display: block;
+          }
+        }
+        .head-img-box{
+          width: 44px;
+          height: 44px;
+          border: 2px solid rgba(255, 255, 255, 0.7);
+          border-radius: 50%;
+          cursor: pointer;
+          img{
+            width: 100%;
+            height: 100%;
+            display: block;
+            border-radius: 50%;
+          }
+        }
+        .user-nav-box{
+          background-color: #ffffff;
+          position: absolute;
+          width: 330px;
+          top: 62px;
+          right: 0;
+          border-radius: 0 0 8px 8px;
+          display: none;
+          z-index: 20;
+          box-shadow: 0 8px 16px 0 rgba(7, 17, 27, 0.2);
+          .user-nav-img{
+            position: absolute;
+            top: -15px;
+            width: 20px;
+            height: 16px;
+            right: 12px;
+          }
+          .user-nav-cont{
+            margin: 0 20px;
+            padding: 20px 0;
+            .u-com-nav{
+                margin: 20px 0 28px 0;
+                border-bottom: 1px solid #E7E7E7;
+              .u-com-ul{
+                margin-left: -10px;
+                li{
+                  float: left;
+                  width: 140px;
+                  height: 32px;
+                  margin-left: 10px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-bottom: 10px;
+                  background-color: #f5f6f6;
+                  &:hover{
+                    background: rgba(237, 237, 237, 1);
+                  }
+                  a{
+                    font-size: 12px;
+                    color: #4D555D;
+                    img{
+                      width: 16px;
+                      margin-right: 10px;
+                    }
+                    span{
+                      line-height: 12px;
+                    }
+                  }
+                }
+              }
+            }
+            .log-out{
+              display: block;
+              font-size: 12px;
+              color: #4D555D;
+            }
+          }
+        }
       }
     }
   }
