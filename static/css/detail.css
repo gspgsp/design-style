@@ -4,15 +4,15 @@
   height: 50px;
   border-bottom: 1px solid #f0f0f0;
   border-top: 1px solid #f0f0f0;
-  background-color: #333;
+  background-color: #9C713B;
   display: flex;
   justify-content: center; }
   .desc-nav-wrap .desc-nav {
     width: 1200px; }
     .desc-nav-wrap .desc-nav .desc-nav-l {
-      color: #999; }
+      color: #d6c79e; }
       .desc-nav-wrap .desc-nav .desc-nav-l a {
-        color: #999; }
+        color: #d6c79e; }
         .desc-nav-wrap .desc-nav .desc-nav-l a:hover {
           color: #fff; }
       .desc-nav-wrap .desc-nav .desc-nav-l span {

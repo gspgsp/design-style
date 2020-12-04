@@ -1,9 +1,9 @@
 @charset "UTF-8";
-
+@import "theme";
 .category-nav-banner {
   width: 100%;
   height: 130px;
-  background-color: #484848;
+  background-color: $theme-color;
   .category-nav-tit {
     line-height: 30px;
     font-size: 24px;
