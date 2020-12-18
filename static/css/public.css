@@ -13,6 +13,10 @@ del, dfn, font {
   padding: 0;
   font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
 
+body {
+  overflow-y: scroll;
+  background-color: #F8FCFC; }
+
 .nav-l {
   float: left; }
 

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import "theme";
+
+.user-wrap{
+  min-height: 300px;
+}
+.personal_information{
+  width: 100%;
+  padding: 20px 0;
+  background-color: $theme-color;
+}
+.user-center{
+  width: 1100px;
+  margin: 0 auto;
+}
+.user-list{
+  display: flex;
+  align-items: center;
+}
+.user-visit-log{
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 12px;
+}
+.user-image{
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+  }
+}
+.user-desc{
+  margin-left: 10px;
+  display: inline-block;
+  .user-wel{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+    margin-bottom: 5px;
+  }
+  .user-visit{
+    color: #fff;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+    margin-top: 5px;
+  }
+}
+
+.user-nav{
+  width: 100%;
+  height: 50px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 5px 0 rgba(20,14,32,.02);
+  .user-nav-items{
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    .user-ul{
+      height: 100%;//必须给ul设置(继承)高度,不然flex center不生效
+      li{
+        float: left;
+        margin-right: 60px;
+        &:last-child{
+          margin-right: 0;
+        }
+        a{
+          display: inline-block;
+          padding: 15px 0 13px;//15 + 13 + 20 + 2 == 50
+          font-size: 18px;
+          line-height: 20px;
+          color: #4D555D;
+        }
+      }
+    }
+  }
+}
+.active--li-a{
+  color: $theme-color !important;
+  border-bottom: 2px solid $theme-color;
+}
+
+.user-chose-wrap{
+  width: 1100px;
+  margin: 45px auto 0;
+}
