@@ -82,7 +82,7 @@
     }
   }
 }
-.active--li-a{
+.active-li-a{
   color: $theme-color !important;
   border-bottom: 2px solid $theme-color;
 }
@@ -91,3 +91,122 @@
   width: 1100px;
   margin: 45px auto 0;
 }
+.user-info-left{
+  float: left;
+  .user-info-item{
+    li{
+      width: 136px;
+      height: 48px;
+      margin-top: 30px;
+      a{
+        color: #000;
+      }
+      &:first-child{
+        margin-top: 0;
+      }
+    }
+  }
+}
+.user-info-item li .user-info-item-active{
+  background-color: $theme-color;
+  color: #fff !important;
+}
+.user-info-item li a{
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.user-info-right{
+  float: right;
+  width: 888px;
+}
+.user-info-title{
+  border-bottom: 1px solid #d0d6d9;
+}
+.user-info-title-p{
+  color: $theme-color;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.user-info-wrap{
+  margin-top: 36px;
+  .user-info-list{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid #d0d6d9;
+    &:first-child{
+      padding-top: 0;
+    }
+    .design-img{
+      width: 200px;
+      height: 124px;
+      float: left;
+      img{
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+    }
+    .design-desc{
+      margin-left: 220px;
+      position: relative;
+      .design-title{
+        padding: 20px 0 20px;
+        .design-title-p{
+          font-size: 14px;
+          line-height: 22px;
+          height: 22px;
+        }
+      }
+      .design-time{
+        padding: 20px 0 20px;
+        .design-time-p{
+          font-size: 14px;
+          line-height: 22px;
+          height: 22px;
+        }
+      }
+      .look-but{
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 51px;
+        font-size: 14px;
+        width: 92px;
+        text-align: center;
+        border-radius: 20px;
+        box-sizing: border-box;
+        border: 1px solid $theme-color;
+        padding: 10px 0;
+        color: $theme-color;
+      }
+    }
+  }
+
+  .set-item-box{
+    padding: 30px 0;
+    border-bottom: 1px solid #d0d6d9;
+  }
+  .set-item-l{
+    margin-left: 10px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .set-item-m{
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .set-item-r{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .set-item-img{
+    width: 40px;
+    display: block;
+  }
+}
+
