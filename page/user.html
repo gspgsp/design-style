@@ -136,7 +136,7 @@
                         </div>
                     </div>
                     <div class="set-item-r">
-                        <a href="#" class="set-item-action">修改</a>
+                        <a href="#" class="set-item-action password-change">修改</a>
                     </div>
                 </div>
 
@@ -147,34 +147,93 @@
                 <div class="email-bind-verify" style="display: none;">
                     <div class="email-bind-top clear">
                         <span>验证身份</span>
-                        <img src="../static/images/qx.png" alt="">
+                        <img src="../static/images/qx.png" alt="" class="email-bind-close">
                     </div>
                     <div class="email-bind-key">
-                        <img src="../static/images/key.png" alt="">
+                        <img src="../static/images/key.png" alt="" class="email-bind-key">
                     </div>
-                    <div>
+                    <div class="email-bind-input-wrap">
                         <p>请输入登录密码验证身份</p>
-                        <div>
-                            <span>密码</span>
-                            <input type="text">
+                        <div class="email-bind-input">
+                            <span class="email-bind-pl">密码</span>
+                            <input type="password" class="email-bind-ip" placeholder="输入密码">
                         </div>
-                        <div>
-                            <span>验证码</span>
-                            <input type="text">
-                            <div>
-                                <div></div>
-                                <img src="#" alt="">
+                        <div class="email-bind-input">
+                            <span class="email-bind-vl">验证码</span>
+                            <input type="text" class="email-bind-ip" placeholder="输入验证码">
+                            <div class="email-bind-vc-wrap">
+                                <div class="email-bind-vc-ref middle"></div>
+                                <img src="https://www.imooc.com/passport/user/verifycode?t=1551755747656" alt="" class="email-bind-vc middle">
+                            </div>
+                        </div>
+                        <div class="email-bind-btn-wrap">
+                            <span class="email-bind-btn bind-htn-y">确认</span>
+                            <span class="email-bind-btn bind-btn-n">取消</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--绑定邮箱操作2-->
+                <div class="email-bind-show" style="display: none;">
+                    <div class="email-bind-top clear">
+                        <span>修改邮箱</span>
+                        <img src="../static/images/qx.png" alt="" class="email-bind-close">
+                    </div>
+                    <div class="email-bind-address-wrap">
+                        <div class="email-bind-address-d">
+                            <p class="email-bind-address-tit">邮箱地址</p>
+                            <div class="email-bind-address">
+                                <input type="text" placeholder="请输入邮箱地址">
+                            </div>
+                        </div>
+                        <div class="email-bind-address-d">
+                            <p class="email-bind-address-tit"></p>
+                            <div class="email-bind-address-btn">
+                                <a href="javascript:;" class="email-bind-y">确认</a>
+                                <a href="javascript:;" class="email-bind-n">取消</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-
-
-
+                <!--修改密码1-->
+                <div class="password-c-wrap" style="display: none;">
+                    <div class="password-c-top clear">
+                        <span>修改密码</span>
+                        <img src="../static/images/qx.png" alt="" class="password-c-close">
+                    </div>
+                    <div class="password-c-raw-wrap">
+                        <p class="password-c-tit">原密码</p>
+                        <div class="password-c-i">
+                            <input type="password" placeholder="请输入原密码">
+                        </div>
+                    </div>
+                    <div class="password-c-raw-wrap">
+                        <p class="password-c-tit">新密码</p>
+                        <div class="password-c-i">
+                            <input type="password" placeholder="请输入新密码">
+                        </div>
+                    </div>
+                    <div class="password-c-raw-wrap">
+                        <p class="password-c-tit">确认新密码</p>
+                        <div class="password-c-i">
+                            <input type="password" placeholder="请输入确认密码">
+                        </div>
+                    </div>
+                    <div class="password-c-raw-s">
+                        <p class="password-c-tit"></p>
+                        <div class="password-c-btn">
+                            <a href="javascript:;" class="password-c-y">确认</a>
+                            <a href="javascript:;" class="password-c-n">取消</a>
+                        </div>
+                    </div>
+                </div>
 
 
                 <!--个人设置-个人信息-->
+
+
+
 
 
                 <!--个人设置-操作记录-->
