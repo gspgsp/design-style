@@ -446,6 +446,7 @@
   .password-c-i{
     display: inline-block;
     vertical-align: center;
+    position: relative;
     input{
       width: 300px;
       height: 36px;
@@ -481,6 +482,223 @@
   }
   .password-c-raw-s{
     margin: 30px 0;
+  }
+}
+
+.pop-hint-p{
+  font-size: 14px;
+  color: #FF2435;
+  opacity:0;
+  position: absolute;
+  top:10%;
+  left: 2px;
+  text-indent: 16px;
+  display: flex;
+  align-items: center;
+  height: 80%;
+  background-color: #fff;/*遮盖住原来的input框*/
+}
+.pop-hint-active{
+  opacity:1;
+  transition: opacity .3s;/*动画渲染展示*/
+}
+
+/*
+*用户设置头像样式
+*/
+.user-set-wrap{
+   .user-img-left-wrap{
+     float: left;
+     width: 114px;
+     height: 114px;
+     position: relative;
+     border-radius: 50%;
+     cursor: pointer;
+     overflow: hidden;
+     background-color: #9199A1;
+     .user-set-img{
+       width: 100%;
+       height: 100%;
+       display: block;
+     }
+     .user-img-camera-wrap{
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       .camera-img-wrap{
+         text-align: center;
+         .camera-img{
+           display: inline-block;
+         }
+         .camera-tit{
+          margin: 5px 0;
+           font-size: 14px;
+         }
+       }
+     }
+   }
+  .user-img-right-wrap{
+    margin-left: 114px;
+    .user-nick-wrap{
+      margin-bottom: 30px;
+      .nick-p{
+        width: 120px;
+        text-align: right;
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+        em{
+          color: #FF2435;
+          margin-right: 5px;
+        }
+      }
+      .nick-i-w{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        margin-left: 20px;
+        .nick-i{
+          width: 584px;
+          height: 40px;
+          border-radius: 5px;
+          border: 1px solid #9199A1;
+          text-indent: 16px;
+          outline: none;
+          font-size: 14px;
+          font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+        }
+        .nick-i-hint{
+          position: absolute;
+          height: 80%;
+          top: 10%;
+          left: 2px;
+          font-size: 14px;
+          text-indent: 16px;
+          opacity:0;
+          background-color: #fff;
+          display: flex;
+          align-items: center;
+          color: #FF2435;
+          p{
+            margin-bottom: 0;
+          }
+        }
+        .nick-i-active{
+          opacity:1 !important;
+          transition: opacity .3s;
+        }
+      }
+    }
+    .s-set-btn{
+      width: 90px;
+      font-size: 16px;
+      line-height: 30px;
+      color: #fff;
+      background-color: $theme-color;
+      border-radius: 20px;
+      border: 1px solid $theme-color;
+      outline: none;
+    }
+    .user-name-wrap{
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.upload-am-dialog{
+  border-radius: 5px !important;
+}
+.uploader-header-wrap{
+  height: 50px;
+  line-height: 50px;
+  padding: 0 !important;
+  border-bottom: 1px solid #C7DAE1;
+  span{
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    margin-left: 10px;
+    color: $theme-color;
+  }
+  a{
+    top: 10px !important;
+  }
+}
+.upload-am-main{
+  padding: 20px !important;
+  .img-pre-show{
+    width: 320px;
+    height: 320px;
+    background: #fcfcfc;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    img{
+      width: 100%;
+    }
+  }
+  .img-after-show{
+    width: 160px;
+    min-width: 160px;
+    height: 160px;
+    min-height: 160px;
+    float: right;
+    background: #fcfcfc;
+    overflow: hidden;
+    border: 1px solid #e3e3e3;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  .up-img-action-g{
+    margin: 20px 0;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .up-img-t-w{
+      position: relative;
+      text-align: left;
+      .up-img-btn{
+        display: inline-block;
+        font-size: 16px;
+        line-height: 16px;
+        background-color: #e6e6e6;
+        border: none;
+        color: #444;
+      }
+      .up-img-file{
+        position: absolute;
+        line-height: 16px;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        z-index: 11;
+        width: 100%;
+        display: inline-block;
+        cursor: pointer;
+      }
+    }
+    .up-img-a-w{
+      width: 160px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 16px;
+      .up-img-a-l, .up-img-a-r, .up-img-a-s{
+        height: 100%;
+        width: 16px;
+      }
+      .up-img-a-l-i, .up-img-a-r-i, .up-img-a-s-i{
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+    }
   }
 }
 

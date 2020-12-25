@@ -375,7 +375,8 @@
   margin-right: 10px; }
 .password-c-wrap .password-c-i {
   display: inline-block;
-  vertical-align: center; }
+  vertical-align: center;
+  position: relative; }
   .password-c-wrap .password-c-i input {
     width: 300px;
     height: 36px;
@@ -406,5 +407,191 @@
     border: 1px solid #9C713B; }
 .password-c-wrap .password-c-raw-s {
   margin: 30px 0; }
+
+.pop-hint-p {
+  font-size: 14px;
+  color: #FF2435;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 2px;
+  text-indent: 16px;
+  display: flex;
+  align-items: center;
+  height: 80%;
+  background-color: #fff;
+  /*遮盖住原来的input框*/ }
+
+.pop-hint-active {
+  opacity: 1;
+  transition: opacity .3s;
+  /*动画渲染展示*/ }
+
+/*
+*用户设置头像样式
+*/
+.user-set-wrap .user-img-left-wrap {
+  float: left;
+  width: 114px;
+  height: 114px;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #9199A1; }
+  .user-set-wrap .user-img-left-wrap .user-set-img {
+    width: 100%;
+    height: 100%;
+    display: block; }
+  .user-set-wrap .user-img-left-wrap .user-img-camera-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    .user-set-wrap .user-img-left-wrap .user-img-camera-wrap .camera-img-wrap {
+      text-align: center; }
+      .user-set-wrap .user-img-left-wrap .user-img-camera-wrap .camera-img-wrap .camera-img {
+        display: inline-block; }
+      .user-set-wrap .user-img-left-wrap .user-img-camera-wrap .camera-img-wrap .camera-tit {
+        margin: 5px 0;
+        font-size: 14px; }
+.user-set-wrap .user-img-right-wrap {
+  margin-left: 114px; }
+  .user-set-wrap .user-img-right-wrap .user-nick-wrap {
+    margin-bottom: 30px; }
+    .user-set-wrap .user-img-right-wrap .user-nick-wrap .nick-p {
+      width: 120px;
+      text-align: right;
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
+      .user-set-wrap .user-img-right-wrap .user-nick-wrap .nick-p em {
+        color: #FF2435;
+        margin-right: 5px; }
+    .user-set-wrap .user-img-right-wrap .user-nick-wrap .nick-i-w {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      margin-left: 20px; }
+      .user-set-wrap .user-img-right-wrap .user-nick-wrap .nick-i-w .nick-i {
+        width: 584px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #9199A1;
+        text-indent: 16px;
+        outline: none;
+        font-size: 14px;
+        font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
+      .user-set-wrap .user-img-right-wrap .user-nick-wrap .nick-i-w .nick-i-hint {
+        position: absolute;
+        height: 80%;
+        top: 10%;
+        left: 2px;
+        font-size: 14px;
+        text-indent: 16px;
+        opacity: 0;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        color: #FF2435; }
+        .user-set-wrap .user-img-right-wrap .user-nick-wrap .nick-i-w .nick-i-hint p {
+          margin-bottom: 0; }
+      .user-set-wrap .user-img-right-wrap .user-nick-wrap .nick-i-w .nick-i-active {
+        opacity: 1 !important;
+        transition: opacity .3s; }
+  .user-set-wrap .user-img-right-wrap .s-set-btn {
+    width: 90px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #9C713B;
+    border-radius: 20px;
+    border: 1px solid #9C713B;
+    outline: none; }
+  .user-set-wrap .user-img-right-wrap .user-name-wrap {
+    margin-bottom: 30px; }
+
+.upload-am-dialog {
+  border-radius: 5px !important; }
+
+.uploader-header-wrap {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 !important;
+  border-bottom: 1px solid #C7DAE1; }
+  .uploader-header-wrap span {
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    margin-left: 10px;
+    color: #9C713B; }
+  .uploader-header-wrap a {
+    top: 10px !important; }
+
+.upload-am-main {
+  padding: 20px !important; }
+  .upload-am-main .img-pre-show {
+    width: 320px;
+    height: 320px;
+    background: #fcfcfc;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-bottom: 20px;
+    border-radius: 5px; }
+    .upload-am-main .img-pre-show img {
+      width: 100%; }
+  .upload-am-main .img-after-show {
+    width: 160px;
+    min-width: 160px;
+    height: 160px;
+    min-height: 160px;
+    float: right;
+    background: #fcfcfc;
+    overflow: hidden;
+    border: 1px solid #e3e3e3;
+    margin-bottom: 20px;
+    border-radius: 5px; }
+  .upload-am-main .up-img-action-g {
+    margin: 20px 0;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .upload-am-main .up-img-action-g .up-img-t-w {
+      position: relative;
+      text-align: left; }
+      .upload-am-main .up-img-action-g .up-img-t-w .up-img-btn {
+        display: inline-block;
+        font-size: 16px;
+        line-height: 16px;
+        background-color: #e6e6e6;
+        border: none;
+        color: #444; }
+      .upload-am-main .up-img-action-g .up-img-t-w .up-img-file {
+        position: absolute;
+        line-height: 16px;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        z-index: 11;
+        width: 100%;
+        display: inline-block;
+        cursor: pointer; }
+    .upload-am-main .up-img-action-g .up-img-a-w {
+      width: 160px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 16px; }
+      .upload-am-main .up-img-action-g .up-img-a-w .up-img-a-l, .upload-am-main .up-img-action-g .up-img-a-w .up-img-a-r, .upload-am-main .up-img-action-g .up-img-a-w .up-img-a-s {
+        height: 100%;
+        width: 16px; }
+      .upload-am-main .up-img-action-g .up-img-a-w .up-img-a-l-i, .upload-am-main .up-img-action-g .up-img-a-w .up-img-a-r-i, .upload-am-main .up-img-action-g .up-img-a-w .up-img-a-s-i {
+        width: 100%;
+        height: 100%;
+        display: block; }
 
 /*# sourceMappingURL=user.css.map */
