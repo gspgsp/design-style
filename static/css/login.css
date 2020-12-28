@@ -24,7 +24,7 @@
   width: 100%;
   height: 100%;
   /*background-image: url("../../static/images/l-pop-up-bac.png");*/
-  background-color: #9C713B;
+  background-color: #9c713b;
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: 5; }
@@ -49,7 +49,7 @@
   line-height: 18px;
   font-weight: bold;
   text-indent: 10px;
-  color: #9C713B; }
+  color: #9c713b; }
 
 .input-cont-wid {
   width: 312px;
@@ -161,7 +161,7 @@
   height: 42px;
   border-radius: 21px;
   /*background:linear-gradient(45deg, #81D8D0, #2B99A3);*/
-  background-color: #9C713B;
+  background-color: #9c713b;
   box-shadow: 0px 2px 17px 1px rgba(20, 14, 32, 0.1); }
 
 /*
@@ -176,7 +176,7 @@
   top: 0;
   right: 0;
   /*background-image: url("../images/login-gradual-bac.png");*/
-  background-color: #9C713B;
+  background-color: #9c713b;
   background-repeat: no-repeat;
   background-position: -384px 0; }
   .login-r .l-but-cont {
@@ -310,7 +310,7 @@
     top: 6px; }
 
 .agreement-t {
-  color: #9C713B;
+  color: #9c713b;
   margin-left: 5px; }
 
 .register-set-pad {

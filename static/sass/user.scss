@@ -702,3 +702,24 @@
   }
 }
 
+.user-action-log{
+  table{
+    width: 100%;
+    .a-log-tr{
+      background-color: #d0d6de;
+      margin-bottom: 20px;
+    }
+    th, td{
+      text-align: center;
+      font-size: 16px;
+    }
+    th{
+      line-height: 36px;
+    }
+    td{
+      line-height: 50px;
+      border-bottom: 1px solid #d0d6de;
+    }
+  }
+}
+

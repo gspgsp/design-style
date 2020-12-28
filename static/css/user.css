@@ -5,7 +5,7 @@
 .personal_information {
   width: 100%;
   padding: 20px 0;
-  background-color: #9C713B; }
+  background-color: #9c713b; }
 
 .user-center {
   width: 1100px;
@@ -72,8 +72,8 @@
           color: #4D555D; }
 
 .active-li-a {
-  color: #9C713B !important;
-  border-bottom: 2px solid #9C713B; }
+  color: #9c713b !important;
+  border-bottom: 2px solid #9c713b; }
 
 .user-chose-wrap {
   width: 1100px;
@@ -91,7 +91,7 @@
       margin-top: 0; }
 
 .user-info-item li .user-info-item-active {
-  background-color: #9C713B;
+  background-color: #9c713b;
   color: #fff !important; }
 
 .user-info-item li a {
@@ -109,7 +109,7 @@
   border-bottom: 1px solid #d0d6d9; }
 
 .user-info-title-p {
-  color: #9C713B;
+  color: #9c713b;
   font-size: 14px;
   margin-bottom: 12px; }
 
@@ -154,9 +154,9 @@
         text-align: center;
         border-radius: 20px;
         box-sizing: border-box;
-        border: 1px solid #9C713B;
+        border: 1px solid #9c713b;
         padding: 5px 0;
-        color: #9C713B; }
+        color: #9c713b; }
   .user-info-wrap .set-item-box {
     padding: 30px 0;
     border-bottom: 1px solid #d0d6d9; }
@@ -180,13 +180,13 @@
     vertical-align: middle;
     float: right;
     width: 92px;
-    border: 1px solid #9C713B;
+    border: 1px solid #9c713b;
     border-radius: 20px;
     font-size: 14px;
     text-align: center;
     padding: 5px 0; }
     .user-info-wrap .set-item-r .set-item-action {
-      color: #9C713B; }
+      color: #9c713b; }
   .user-info-wrap .set-item-img {
     width: 40px;
     display: block; }
@@ -216,7 +216,7 @@
     line-height: 32px;
     font-size: 16px;
     font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
-    color: #9C713B;
+    color: #9c713b;
     float: left;
     display: inline-block; }
   .email-bind-top img {
@@ -238,7 +238,7 @@
   align-items: center; }
   .email-bind-input-wrap p {
     font-size: 16px;
-    color: #9C713B;
+    color: #9c713b;
     font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
     margin-bottom: 10px; }
   .email-bind-input-wrap .email-bind-input {
@@ -250,7 +250,7 @@
     display: inline-block;
     text-align: center;
     font-size: 16px;
-    color: #9C713B;
+    color: #9c713b;
     font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
   .email-bind-input-wrap .email-bind-ip {
     text-indent: 12px;
@@ -296,11 +296,11 @@
       cursor: pointer; }
     .email-bind-input-wrap .email-bind-btn-wrap .bind-htn-y {
       color: #fff;
-      background-color: #9C713B;
+      background-color: #9c713b;
       margin-right: 30px; }
     .email-bind-input-wrap .email-bind-btn-wrap .bind-btn-n {
-      color: #9C713B;
-      border: 1px solid #9C713B; }
+      color: #9c713b;
+      border: 1px solid #9c713b; }
 
 .email-bind-show .email-bind-address-wrap {
   margin-top: 30px; }
@@ -311,7 +311,7 @@
   font-size: 16px;
   line-height: 14px;
   font-weight: 400;
-  color: #9C713B;
+  color: #9c713b;
   display: inline-block;
   vertical-align: middle;
   text-align: right;
@@ -333,7 +333,7 @@
     width: 66px;
     line-height: 30px;
     color: #fff;
-    background-color: #9C713B;
+    background-color: #9c713b;
     text-align: center;
     border-radius: 18px;
     cursor: pointer;
@@ -342,8 +342,8 @@
     display: inline-block;
     width: 66px;
     line-height: 30px;
-    color: #9C713B;
-    border: 1px solid #9C713B;
+    color: #9c713b;
+    border: 1px solid #9c713b;
     text-align: center;
     border-radius: 18px;
     cursor: pointer; }
@@ -354,7 +354,7 @@
     line-height: 32px;
     font-size: 16px;
     font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
-    color: #9C713B;
+    color: #9c713b;
     float: left;
     display: inline-block; }
   .password-c-wrap .password-c-top img {
@@ -368,7 +368,7 @@
   font-size: 16px;
   line-height: 14px;
   font-weight: 400;
-  color: #9C713B;
+  color: #9c713b;
   display: inline-block;
   vertical-align: middle;
   text-align: right;
@@ -391,7 +391,7 @@
     width: 66px;
     line-height: 30px;
     color: #fff;
-    background-color: #9C713B;
+    background-color: #9c713b;
     border-radius: 18px;
     cursor: pointer;
     margin-right: 30px;
@@ -400,11 +400,11 @@
     display: inline-block;
     width: 66px;
     line-height: 30px;
-    color: #9C713B;
+    color: #9c713b;
     border-radius: 18px;
     cursor: pointer;
     text-align: center;
-    border: 1px solid #9C713B; }
+    border: 1px solid #9c713b; }
 .password-c-wrap .password-c-raw-s {
   margin: 30px 0; }
 
@@ -507,9 +507,9 @@
     font-size: 16px;
     line-height: 30px;
     color: #fff;
-    background-color: #9C713B;
+    background-color: #9c713b;
     border-radius: 20px;
-    border: 1px solid #9C713B;
+    border: 1px solid #9c713b;
     outline: none; }
   .user-set-wrap .user-img-right-wrap .user-name-wrap {
     margin-bottom: 30px; }
@@ -527,7 +527,7 @@
     float: left;
     font-size: 16px;
     margin-left: 10px;
-    color: #9C713B; }
+    color: #9c713b; }
   .uploader-header-wrap a {
     top: 10px !important; }
 
@@ -593,5 +593,19 @@
         width: 100%;
         height: 100%;
         display: block; }
+
+.user-action-log table {
+  width: 100%; }
+  .user-action-log table .a-log-tr {
+    background-color: #d0d6de;
+    margin-bottom: 20px; }
+  .user-action-log table th, .user-action-log table td {
+    text-align: center;
+    font-size: 16px; }
+  .user-action-log table th {
+    line-height: 36px; }
+  .user-action-log table td {
+    line-height: 50px;
+    border-bottom: 1px solid #d0d6de; }
 
 /*# sourceMappingURL=user.css.map */

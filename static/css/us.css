@@ -25,13 +25,13 @@
         display: block;
         line-height: 60px; }
       .about-wrap .about-nav-wrap li .about-nav-a {
-        color: #9C713B;
+        color: #9c713b;
         position: relative; }
         .about-wrap .about-nav-wrap li .about-nav-a:after {
           content: '';
           width: 100%;
           height: 4px;
-          background-color: #9C713B;
+          background-color: #9c713b;
           position: absolute;
           left: 0;
           bottom: 0; }
@@ -52,7 +52,7 @@
           content: '';
           width: 4px;
           height: 14px;
-          background-color: #9C713B;
+          background-color: #9c713b;
           position: absolute;
           left: 0;
           bottom: 1px; }
