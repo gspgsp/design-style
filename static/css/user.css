@@ -596,8 +596,8 @@
 
 .user-action-log table {
   width: 100%; }
-  .user-action-log table .a-log-tr {
-    background-color: #d0d6de;
+  .user-action-log table thead {
+    background-color: #fff4e5;
     margin-bottom: 20px; }
   .user-action-log table th, .user-action-log table td {
     text-align: center;

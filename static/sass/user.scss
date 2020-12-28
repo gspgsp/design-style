@@ -705,8 +705,8 @@
 .user-action-log{
   table{
     width: 100%;
-    .a-log-tr{
-      background-color: #d0d6de;
+    thead{
+      background-color: #fff4e5;
       margin-bottom: 20px;
     }
     th, td{
