@@ -97,7 +97,8 @@
               margin: 20px 0 28px 0;
               border-bottom: 1px solid #E7E7E7; }
               .banner-container .nav-cont .after-login .user-head-portrait .user-nav-box .user-nav-cont .u-com-nav .u-com-ul {
-                margin-left: -10px; }
+                margin-left: -10px;
+                padding-left: 0 !important; }
                 .banner-container .nav-cont .after-login .user-head-portrait .user-nav-box .user-nav-cont .u-com-nav .u-com-ul li {
                   float: left;
                   width: 140px;
