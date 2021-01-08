@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import "theme";
+
+.designer-detail-wrap{
+  min-height: 500px;
+  .designer-detail-banner{
+    width: 100%;
+    height: 560px;
+    position: relative;
+    background-image: url("../images/designer-bac.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .designer-info{
+      position: relative;
+      width: 1200px;
+      margin: 0 auto;
+      padding-top: 60px;
+      .designer-img{
+        width: 144px;
+        height: 144px;
+        margin: 0 auto;
+        img{
+          width: 100%;
+          height: 100%;
+          display: block;
+          border-radius: 100%;
+        }
+      }
+      .designer-name{
+        margin-top: 10px;
+        text-align: center;
+        color: #fff;
+        .name-p{
+          font-size: 18px;
+          font-weight: 400;
+        }
+        .name-h{
+          margin-top: 10px;
+          font-size: 14px;
+        }
+      }
+      .designer-star-wrap{
+        width: 100px;
+        margin: 20px auto;
+        text-align: center;
+        background-color: #FF9900;
+        border-radius: 20px;
+        cursor: pointer;
+        .star-logo, .star-text{
+          display: inline-block;
+        }
+        .star-logo{
+          width: 20px;
+          height: 20px;
+          background-image: url("../images/star.png");
+          background-size: cover;
+          background-position: center;
+          vertical-align: middle;
+          margin-right: 5px;
+        }
+        .star-text{
+          color: #fff;
+          font-size: 16px;
+          height: 32px;
+          line-height: 32px;
+          vertical-align: middle;
+        }
+      }
+      .designer-detail{
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+    .designer-nav{
+      width: 488px;
+      height: 168px;
+      position: absolute;
+      left: 50%;
+      bottom: -60px;
+      margin-left: -244px;/*上面50%，这里向左便宜整个元素的一半*/
+      background-color: #fff;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .nav-ul{
+        .nav-li{
+          width: 168px;
+          display: inline-block;
+          .nav-li-a{
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+            p{
+              font-size: 16px;
+              color: #252e3f;
+            }
+          }
+        }
+      }
+    }
+  }
+}
