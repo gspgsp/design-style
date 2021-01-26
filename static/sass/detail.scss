@@ -94,6 +94,7 @@
       overflow: hidden;
       .design-idea-wrap {
         color: #333;
+        position: absolute;
         .desc-title {
           font-size: 22px;
           line-height: 40px;
@@ -168,6 +169,48 @@
             -webkit-box-orient: vertical;
           }
 
+        }
+        .tip-wrap{
+          position: relative;
+          color: blue;
+          right: -260px;
+          bottom: 150px;
+          display: flex;
+          display: -webkit-flex;
+          align-items: center;
+          -webkit-align-items: center;
+          justify-content: center;
+          .tip-l{
+            height: 18px;
+            display: flex;
+            display: -webkit-flex;
+            align-items: center;
+            -webkit-align-items: center;
+            justify-content: center;
+          }
+          .tip-pointer{
+            width: 5px;
+            height: 5px;
+            background-color: #9c713b;
+            border-radius: 50%;
+            display: inline-block;
+          }
+          .tip-line{
+            width: 50px;
+            height: 1px;
+            background-color: #9c713b;
+            display: inline-block;
+          }
+          .tip-r{
+            width: 200px;
+            height: 18px;
+            text-align: left;
+            line-height: 18px;
+            font-size: 12px;
+            color: #9c713b;
+            background: #F7F7F7 none repeat scroll 0% 0%
+
+          }
         }
       }
     }
