@@ -135,41 +135,47 @@
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical; }
         .desc-wrap .desc-info .design-idea .design-idea-wrap .tip-wrap {
-          position: relative;
-          color: blue;
-          right: -260px;
-          bottom: 150px;
-          display: flex;
-          display: -webkit-flex;
-          align-items: center;
-          -webkit-align-items: center;
-          justify-content: center; }
-          .desc-wrap .desc-info .design-idea .design-idea-wrap .tip-wrap .tip-l {
-            height: 18px;
-            display: flex;
-            display: -webkit-flex;
-            align-items: center;
-            -webkit-align-items: center;
-            justify-content: center; }
-          .desc-wrap .desc-info .design-idea .design-idea-wrap .tip-wrap .tip-pointer {
-            width: 5px;
-            height: 5px;
-            background-color: #9c713b;
-            border-radius: 50%;
-            display: inline-block; }
-          .desc-wrap .desc-info .design-idea .design-idea-wrap .tip-wrap .tip-line {
-            width: 50px;
-            height: 1px;
-            background-color: #9c713b;
-            display: inline-block; }
-          .desc-wrap .desc-info .design-idea .design-idea-wrap .tip-wrap .tip-r {
+          position: absolute;
+          right: 10px;
+          bottom: 128px;
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          cursor: default;
+          background-color: #9c713b;
+          text-align: center; }
+          .desc-wrap .desc-info .design-idea .design-idea-wrap .tip-wrap:before {
+            content: '?';
+            font-weight: bold;
+            color: #fff; }
+          .desc-wrap .desc-info .design-idea .design-idea-wrap .tip-wrap:hover p {
+            display: block;
+            transform-origin: 100% 0%;
+            -webkit-animation: fadeIn 0.3s ease-in-out;
+            animation: tipFadeIn 0.3s ease-in-out; }
+          .desc-wrap .desc-info .design-idea .design-idea-wrap .tip-wrap p {
+            display: none;
             width: 200px;
-            height: 18px;
             text-align: left;
-            line-height: 18px;
-            font-size: 12px;
-            color: #9c713b;
-            background: #F7F7F7 none repeat scroll 0% 0%; }
+            background-color: #1E2021;
+            padding: 10px;
+            position: absolute;
+            border-radius: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+            right: -4px;
+            color: #FFF;
+            font-size: 13px;
+            line-height: 1.4;
+            margin-top: 13px; }
+            .desc-wrap .desc-info .design-idea .design-idea-wrap .tip-wrap p:before {
+              position: absolute;
+              content: '';
+              width: 0;
+              height: 0;
+              border: 6px solid transparent;
+              border-bottom-color: #1E2021;
+              right: 10px;
+              top: -12px; }
   .desc-wrap .contact-wrap {
     margin: 30px 0; }
     .desc-wrap .contact-wrap .contact-w {
