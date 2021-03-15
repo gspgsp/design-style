@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>指南</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <link rel="stylesheet" href="../static/css/strategy.css">
+    <link rel="stylesheet" href="../static/css/public.css">
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="strategy-wrap">
+                <h1 class="strategy-title">装修知识大全</h1>
+                <ul class="ul_wrap clear">
+                    <li class="step-wrap">
+                        <img src="../static/images/s1.jpg" alt="" class="step-back-img">
+                        <p class="step-notice">装修前</p>
+                    </li>
+                    <li class="step-wrap">
+                        <img src="../static/images/s2.jpg" alt="" class="step-back-img">
+                        <p class="step-notice">装修中</p>
+                    </li>
+                    <li class="step-wrap">
+                        <img src="../static/images/s3.jpg" alt="" class="step-back-img">
+                        <p class="step-notice">装修后</p>
+                    </li>
+                    <li class="step-wrap">
+                        <img src="../static/images/s4.jpg" alt="" class="step-back-img">
+                        <p class="step-notice">装修指南</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+  new Swiper('.swiper-container', {
+    direction : 'vertical'
+  });
+
+  $(function () {
+    var winHeight = $(window).height();
+
+    $(".swiper-slide").css("height",winHeight);
+
+    $(window).resize(function() {
+      winHeight = $(this).height();
+      $(".swiper-slide").css("height",winHeight);
+    });
+  })
+</script>
+</html>
