@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import "theme";
+
+.detail-container {
+  width: 1200px;
+  margin: 20px auto;
+  .detail-nav {
+    height: 48px;
+    background-color: $theme-color;
+    display: flex;
+    justify-items: left;
+    align-items: center;
+    a {
+      display: inline-block;
+      font-size: 18px;
+      font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+      color: #f0f0f0;
+      width: 100px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      &:first-child {
+        border-left: none;
+      }
+      &:hover {
+        background-color: #f0f0f0;
+        color: $theme-color;
+        border-top: 2px solid $theme-color;
+      }
+    }
+  }
+}

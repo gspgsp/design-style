@@ -1,3 +1,27 @@
-
+@charset "UTF-8";
+.detail-container {
+  width: 1200px;
+  margin: 20px auto; }
+  .detail-container .detail-nav {
+    height: 48px;
+    background-color: #9c713b;
+    display: flex;
+    justify-items: left;
+    align-items: center; }
+    .detail-container .detail-nav a {
+      display: inline-block;
+      font-size: 18px;
+      font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+      color: #f0f0f0;
+      width: 100px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center; }
+      .detail-container .detail-nav a:first-child {
+        border-left: none; }
+      .detail-container .detail-nav a:hover {
+        background-color: #f0f0f0;
+        color: #9c713b;
+        border-top: 2px solid #9c713b; }
 
 /*# sourceMappingURL=strategy-detail.css.map */
