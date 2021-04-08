@@ -91,6 +91,24 @@
   }
   .detail-right {
     width: 320px;
+    height: 330px;
     margin-left: 20px;
+    .contact-price-w {
+      padding-top: 20px;
+      .contact-price-w-form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .input-d{
+          width: 100%;
+          height: 40px;
+          input{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
   }
 }

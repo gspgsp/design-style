@@ -72,6 +72,20 @@
         box-shadow: 0 0 5px 1px #999; }
   .detail-container .detail-right {
     width: 320px;
+    height: 330px;
     margin-left: 20px; }
+    .detail-container .detail-right .contact-price-w {
+      padding-top: 20px; }
+      .detail-container .detail-right .contact-price-w .contact-price-w-form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column; }
+        .detail-container .detail-right .contact-price-w .contact-price-w-form .input-d {
+          width: 100%;
+          height: 40px; }
+          .detail-container .detail-right .contact-price-w .contact-price-w-form .input-d input {
+            width: 100%;
+            height: 100%; }
 
 /*# sourceMappingURL=strategy-detail.css.map */
