@@ -19,9 +19,59 @@
       text-align: center; }
       .detail-container .detail-nav a:first-child {
         border-left: none; }
-      .detail-container .detail-nav a:hover {
-        background-color: #f0f0f0;
-        color: #9c713b;
-        border-top: 2px solid #9c713b; }
+    .detail-container .detail-nav .active-nav {
+      background-color: #f0f0f0;
+      color: #9c713b;
+      border-top: 2px solid #9c713b; }
+  .detail-container .detail-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; }
+  .detail-container .detail-left {
+    width: 860px; }
+    .detail-container .detail-left .detail-content {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between; }
+      .detail-container .detail-left .detail-content a {
+        display: block;
+        width: 210px;
+        height: 150px;
+        border-radius: 5px; }
+        .detail-container .detail-left .detail-content a img {
+          width: 100%;
+          height: 100%;
+          border-radius: 5px; }
+      .detail-container .detail-left .detail-content .content-wrap {
+        margin-left: 20px;
+        color: #000; }
+        .detail-container .detail-left .detail-content .content-wrap .title {
+          display: block;
+          font-size: 18px;
+          height: 35px;
+          line-height: 35px;
+          color: inherit; }
+        .detail-container .detail-left .detail-content .content-wrap .sub-title {
+          display: block;
+          height: 70px;
+          width: 610px;
+          margin-top: 15px;
+          line-height: 1.5;
+          font-size: 14px;
+          color: inherit; }
+        .detail-container .detail-left .detail-content .content-wrap .origin {
+          margin-top: 10px;
+          height: 20px;
+          font-size: 14px; }
+          .detail-container .detail-left .detail-content .content-wrap .origin span {
+            display: inline-block;
+            margin-left: 10px; }
+            .detail-container .detail-left .detail-content .content-wrap .origin span:first-child {
+              margin-left: 0; }
+      .detail-container .detail-left .detail-content:hover {
+        box-shadow: 0 0 5px 1px #999; }
+  .detail-container .detail-right {
+    width: 320px;
+    margin-left: 20px; }
 
 /*# sourceMappingURL=strategy-detail.css.map */
