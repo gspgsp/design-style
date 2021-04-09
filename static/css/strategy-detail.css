@@ -73,19 +73,39 @@
   .detail-container .detail-right {
     width: 320px;
     height: 330px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    box-shadow: 0 0 5px 1px rgba(9, 9, 9, 0.1);
+    border-radius: 5px; }
     .detail-container .detail-right .contact-price-w {
-      padding-top: 20px; }
+      padding: 20px; }
       .detail-container .detail-right .contact-price-w .contact-price-w-form {
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column; }
         .detail-container .detail-right .contact-price-w .contact-price-w-form .input-d {
-          width: 100%;
-          height: 40px; }
+          box-sizing: border-box;
+          height: 40px;
+          padding: 0 15px;
+          border: 1px solid #f3f3f3;
+          margin-top: 20px;
+          background-color: #f3f3f3;
+          border-radius: 30px; }
           .detail-container .detail-right .contact-price-w .contact-price-w-form .input-d input {
             width: 100%;
-            height: 100%; }
+            height: 100%;
+            border: 0;
+            outline: none;
+            background: transparent;
+            color: #666; }
+        .detail-container .detail-right .contact-price-w .contact-price-w-form .submit-button {
+          margin-top: 20px;
+          height: 40px;
+          border: 1px solid #f3f3f3;
+          outline: none;
+          cursor: pointer;
+          border-radius: 30px;
+          background: #9c713b;
+          color: #f3f3f3; }
 
 /*# sourceMappingURL=strategy-detail.css.map */
