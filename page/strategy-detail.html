@@ -8,6 +8,19 @@
     <title>详情</title>
     <link rel="stylesheet" href="../static/css/strategy-detail.css">
     <link rel="stylesheet" href="../static/css/public.css">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .fix {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9;
+        }
+    </style>
 </head>
 <body>
 <div class="detail-container">
@@ -116,6 +129,34 @@
                     </div>
                 </div>
             </div>
+            <div class="detail-content">
+                <a href="#">
+                    <img src="../static/images/st1.jpg" alt="">
+                </a>
+                <div class="content-wrap">
+                    <a href="#" class="title">标题</a>
+                    <a href="#" class="sub-title"><span>内容简介:</span>从北大荒到北大仓，几代拓荒人在这里战天斗地，百折不挠，前赴后继，勇往直前——从人迹罕至的“莽莽荒原”到富饶丰盈的“中国饭碗”，他们在半个多世纪里锤炼出“艰苦奋斗、勇于开拓、顾全大局</a>
+                    <div class="origin">
+                        <span>来源：钦虹装饰</span>
+                        <span>时间：2021-04-08</span>
+                        <span>浏览次数：1024次</span>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-content">
+                <a href="#">
+                    <img src="../static/images/st1.jpg" alt="">
+                </a>
+                <div class="content-wrap">
+                    <a href="#" class="title">标题</a>
+                    <a href="#" class="sub-title"><span>内容简介:</span>从北大荒到北大仓，几代拓荒人在这里战天斗地，百折不挠，前赴后继，勇往直前——从人迹罕至的“莽莽荒原”到富饶丰盈的“中国饭碗”，他们在半个多世纪里锤炼出“艰苦奋斗、勇于开拓、顾全大局</a>
+                    <div class="origin">
+                        <span>来源：钦虹装饰</span>
+                        <span>时间：2021-04-08</span>
+                        <span>浏览次数：1024次</span>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="detail-right">
             <div class="contact-price-w">
@@ -138,5 +179,25 @@
         </div>
     </div>
 </div>
+<script type="text/javascript" src="../static/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+
+  $(function () {
+    var contact_height = $('.detail-right').offset().top + $('.detail-right').height()
+    var contact_left = $('.detail-right').offset().left
+    var scroll_top = 0
+
+    $(window).scroll(function () {
+      scroll_top = $(document).scrollTop()
+
+      if (scroll_top >= contact_height) {
+        $('.detail-right').addClass('fix')
+        $('.detail-right').css('left', contact_left)
+      } else {
+        $('.detail-right').removeClass('fix')
+      }
+    })
+  })
+</script>
 </body>
 </html>
