@@ -190,7 +190,7 @@
     $(window).scroll(function () {
       scroll_top = $(document).scrollTop()
 
-      if (scroll_top >= contact_height) {
+      if (scroll_top > contact_height) {
         $('.detail-right').addClass('fix')
         $('.detail-right').css('left', contact_left)
       } else {
