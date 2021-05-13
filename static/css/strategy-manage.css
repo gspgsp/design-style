@@ -1,0 +1,97 @@
+@charset "UTF-8";
+html, body,
+div, ul, li, ol,
+p, dl, dt, dd,
+h1, h2, h3, h4, h5, h6,
+table, tr, th, td, caption, thead, tbody, tfoot,
+form, label, input, button, select, option,
+iframe, a, img, span, em, i, strong, b, u, center, big, small, sub, sup,
+blockquote, pre,
+abbr, acronym, address, cite, code,
+del, dfn, font {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
+
+body {
+  overflow-y: scroll;
+  background-color: #F8FCFC; }
+
+.nav-l {
+  float: left; }
+
+.nav-r {
+  float: right; }
+
+.clear:after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  margin-bottom: 0 !important; }
+
+.align-center {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center; }
+
+.min-height {
+  height: 859px; }
+
+.hint-p {
+  position: absolute;
+  top: 0;
+  height: 42px;
+  line-height: 42px;
+  text-indent: 16px;
+  font-size: 14px;
+  color: #F20D0D;
+  border-radius: 10px;
+  opacity: 1;
+  cursor: text;
+  background: #f6f5f9; }
+
+.middle {
+  display: inline-block;
+  vertical-align: middle; }
+
+@-webkit-keyframes tipFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6); }
+  100% {
+    opacity: 100%;
+    transform: scale(1); } }
+@-moz-keyframes tipFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6); }
+  100% {
+    opacity: 100%;
+    transform: scale(1); } }
+@keyframes tipFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6); }
+  100% {
+    opacity: 100%;
+    transform: scale(1); } }
+.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 6; }
+
+/*# sourceMappingURL=strategy-manage.css.map */
