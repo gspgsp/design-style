@@ -94,4 +94,99 @@ ul {
   left: 0;
   z-index: 6; }
 
+.detail-manage-wrap {
+  width: 1200px;
+  margin: 20px auto; }
+
+.detail-manage-container {
+  display: flex;
+  justify-content: space-between; }
+
+.detail-manage-quote-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.detail-manage-left {
+  width: 860px; }
+  .detail-manage-left .detail-manage-quote {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 #656565; }
+    .detail-manage-left .detail-manage-quote .detail-manage-title {
+      display: flex;
+      justify-content: center; }
+      .detail-manage-left .detail-manage-quote .detail-manage-title span {
+        font-weight: 400;
+        font-size: 18px;
+        font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+        display: inline-block;
+        margin: 20px 0; }
+    .detail-manage-left .detail-manage-quote .manage-quote-left {
+      width: 380px;
+      margin: 20px 0; }
+      .detail-manage-left .detail-manage-quote .manage-quote-left .manage-quote-l {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .detail-manage-left .detail-manage-quote .manage-quote-left .manage-quote-l .quote-price-w-form {
+          position: relative;
+          width: 90%; }
+          .detail-manage-left .detail-manage-quote .manage-quote-left .manage-quote-l .quote-price-w-form .input-d {
+            width: 100%;
+            height: 30px;
+            margin-bottom: 10px; }
+            .detail-manage-left .detail-manage-quote .manage-quote-left .manage-quote-l .quote-price-w-form .input-d span {
+              display: inline-block;
+              font-size: 14px;
+              font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
+            .detail-manage-left .detail-manage-quote .manage-quote-left .manage-quote-l .quote-price-w-form .input-d input {
+              display: inline-block;
+              outline: none;
+              height: 28px;
+              width: 70%;
+              border: 1px solid;
+              text-indent: 8px;
+              color: #999;
+              font-size: 14px; }
+            .detail-manage-left .detail-manage-quote .manage-quote-left .manage-quote-l .quote-price-w-form .input-d:last-child {
+              margin-bottom: 0; }
+          .detail-manage-left .detail-manage-quote .manage-quote-left .manage-quote-l .quote-price-w-form .manage-submit-button {
+            position: absolute;
+            top: 32px;
+            right: -115px;
+            display: block;
+            width: 90px;
+            height: 90px;
+            /*background: linear-gradient(-90deg, red, yellow);*/
+            background-color: rgba(0, 0, 0, 0);
+            -webkit-border-radius: 50%;
+            -ms-border-radius: 50%;
+            border-radius: 45px;
+            border: 1px solid #9c713b;
+            outline: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
+    .detail-manage-left .detail-manage-quote .manage-quote-right {
+      width: 380px; }
+      .detail-manage-left .detail-manage-quote .manage-quote-right .manage-quote-r {
+        display: flex;
+        align-items: center;
+        margin-left: 55px; }
+        .detail-manage-left .detail-manage-quote .manage-quote-right .manage-quote-r .manage-quote-p {
+          margin: 20px 0;
+          width: 100%; }
+          .detail-manage-left .detail-manage-quote .manage-quote-right .manage-quote-r .manage-quote-p .manage-quote-p-all {
+            margin-bottom: 20px; }
+          .detail-manage-left .detail-manage-quote .manage-quote-right .manage-quote-r .manage-quote-p .manage-quote-p-item p {
+            margin-bottom: 5px; }
+            .detail-manage-left .detail-manage-quote .manage-quote-right .manage-quote-r .manage-quote-p .manage-quote-p-item p:last-child {
+              margin-bottom: 0; }
+          .detail-manage-left .detail-manage-quote .manage-quote-right .manage-quote-r .manage-quote-p span {
+            font-size: 14px;
+            font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
+
+.detail-manage-right {
+  width: 320px; }
+
 /*# sourceMappingURL=strategy-manage.css.map */

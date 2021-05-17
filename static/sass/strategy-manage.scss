@@ -1,3 +1,123 @@
 @charset "UTF-8";
 @import "theme";
 @import "public";
+
+.detail-manage-wrap {
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.detail-manage-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-manage-quote-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-manage-left {
+  width: 860px;
+  .detail-manage-quote {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 #656565;
+    .detail-manage-title {
+      display: flex;
+      justify-content: center;
+      span {
+        font-weight: 400;
+        font-size: 18px;
+        font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+        display: inline-block;
+        margin: 20px 0;
+      }
+    }
+    .manage-quote-left {
+      width: 380px;
+      margin: 20px 0;
+      .manage-quote-l {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .quote-price-w-form {
+          position: relative;
+          width: 90%;
+          .input-d {
+            width: 100%;
+            height: 30px;
+            margin-bottom: 10px;
+            span {
+              display: inline-block;
+              font-size: 14px;
+              font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+            }
+            input {
+              display: inline-block;
+              outline: none;
+              height: 28px;
+              width: 70%;
+              border: 1px solid;
+              text-indent: 8px;
+              color: #999;
+              font-size: 14px;
+            }
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+          .manage-submit-button {
+            position: absolute;
+            top: 32px;
+            right: -115px;
+            display: block;
+            width: 90px;
+            height: 90px;
+            /*background: linear-gradient(-90deg, red, yellow);*/
+            background-color: rgba(0, 0, 0, 0);
+            -webkit-border-radius: 50%;
+            -ms-border-radius: 50%;
+            border-radius: 45px;
+            border: 1px solid $theme-color;
+            outline: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+          }
+        }
+      }
+    }
+    .manage-quote-right {
+      width: 380px;
+      .manage-quote-r {
+        display: flex;
+        align-items: center;
+        margin-left: 55px;
+        .manage-quote-p {
+          margin: 20px 0;
+          width: 100%;
+          .manage-quote-p-all {
+            margin-bottom: 20px;
+          }
+          .manage-quote-p-item {
+            p {
+              margin-bottom: 5px;
+              &:last-child {
+                margin-bottom: 0;
+              }
+            }
+          }
+          span {
+            font-size: 14px;
+            font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
+
+.detail-manage-right {
+  width: 320px;
+}
