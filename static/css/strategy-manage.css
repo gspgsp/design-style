@@ -185,6 +185,26 @@ ul {
           .detail-manage-left .detail-manage-quote .manage-quote-right .manage-quote-r .manage-quote-p span {
             font-size: 14px;
             font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
+  .detail-manage-left .detail-manage-content {
+    margin-top: 20px; }
+    .detail-manage-left .detail-manage-content .detail-manage-content-w .content-title {
+      display: flex;
+      justify-content: center; }
+      .detail-manage-left .detail-manage-content .detail-manage-content-w .content-title span {
+        font-size: 22px;
+        font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
+    .detail-manage-left .detail-manage-content .detail-manage-content-w .content-detail {
+      margin-top: 10px; }
+    .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate {
+      height: 100px;
+      margin: 20px auto;
+      text-align: center; }
+      .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate .thumb-up, .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate .retransmission {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        cursor: pointer; }
 
 .detail-manage-right {
   width: 320px; }

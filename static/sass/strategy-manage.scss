@@ -116,6 +116,35 @@
       }
     }
   }
+
+  .detail-manage-content {
+    margin-top: 20px;
+    .detail-manage-content-w {
+      .content-title {
+        display: flex;
+        justify-content: center;
+        span {
+          font-size: 22px;
+          font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+        }
+      }
+      .content-detail {
+        margin-top: 10px;
+      }
+      .content-operate {
+        height: 100px;
+        margin: 20px auto;
+        text-align: center;
+        .thumb-up, .retransmission {
+          display: inline-block;
+          width: 100px;
+          height: 100px;
+          line-height: 100px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }
 
 .detail-manage-right {
