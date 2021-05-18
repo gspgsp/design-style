@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>详情页</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/Swiper/6.5.6/swiper-bundle.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/strategy-manage.css">
     <link rel="stylesheet" href="../static/css/detail.css">
     <link rel="stylesheet" href="../static/css/public.css">
@@ -87,21 +89,79 @@
                         <span>装修那些事儿</span>
                     </div>
                     <div class="content-detail">
-                        <p><strong>新房装修</strong>可是一个大工程，特别是对于很多第一次装修房子的业主们来说，对于装修更是一无所知，所以这个时候新房装修流程就很重要了。今天就让我们一起来看下新房装修的流程攻略，不了解的不妨一起来学习下。</p><p style="text-align: center;"><img src="https://image.gsplovedss.xyz//2021/05/12/7055201779154595456.jpg"/></p>
+                        <p><strong>新房装修</strong>可是一个大工程，特别是对于很多第一次装修房子的业主们来说，对于装修更是一无所知，所以这个时候新房装修流程就很重要了。今天就让我们一起来看下新房装修的流程攻略，不了解的不妨一起来学习下。
+                        </p>
+                        <p style="text-align: center;"><img
+                                src="https://image.gsplovedss.xyz//2021/05/12/7055201779154595456.jpg"/></p>
                     </div>
                     <div class="content-operate">
-                        <div class="thumb-up">点赞</div>
-                        <div class="retransmission">转发</div>
+                        <div class="thumb-up">
+                            <i class="thumb-up-icon"></i>
+                            <span>点赞</span>
+                        </div>
+                        <div class="retransmission">
+                            <i class="retransmission-icon"></i>
+                            <span>转发</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="detail-manage-right">
-            <div>
-                3333
+            <div class="hot-designer-r">
+                <div class="hot-title-d">
+                    <span>热门设计师</span>
+                    <!--<a href="#">更多</a>-->
+                </div>
+                <div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="../static/images/d1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../static/images/d2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../static/images/d3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-strategy-r">
+                <div class="hot-title-d">
+                    <span>热门攻略</span>
+                    <!--<a href="#">更多</a>-->
+                </div>
+                <div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="../static/images/d4.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../static/images/d5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 </body>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script>
+  new Swiper('.swiper-container', {
+    paginationClickable: true,
+    pagination:{
+      el:'.swiper-pagination',
+      clickable:true
+    }
+  });
+</script>
 </html>

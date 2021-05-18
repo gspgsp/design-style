@@ -120,7 +120,8 @@ ul {
         font-size: 18px;
         font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
         display: inline-block;
-        margin: 20px 0; }
+        margin: 20px 0;
+        color: #9c713b; }
     .detail-manage-left .detail-manage-quote .manage-quote-left {
       width: 380px;
       margin: 20px 0; }
@@ -196,17 +197,49 @@ ul {
     .detail-manage-left .detail-manage-content .detail-manage-content-w .content-detail {
       margin-top: 10px; }
     .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate {
-      height: 100px;
-      margin: 20px auto;
+      height: 32px;
+      margin: 60px auto;
       text-align: center; }
       .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate .thumb-up, .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate .retransmission {
         display: inline-block;
-        width: 100px;
-        height: 100px;
-        line-height: 100px;
+        width: 150px;
+        height: 32px;
         cursor: pointer; }
+      .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate .thumb-up-icon, .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate .retransmission-icon {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        background-repeat: no-repeat;
+        vertical-align: middle; }
+      .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate .thumb-up-icon {
+        background-image: url("../images/dianzhan.png"); }
+      .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate .retransmission-icon {
+        background-image: url("../images/zhuanfa.png"); }
+      .detail-manage-left .detail-manage-content .detail-manage-content-w .content-operate span {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px;
+        font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif; }
 
 .detail-manage-right {
   width: 320px; }
+  .detail-manage-right .hot-designer-r, .detail-manage-right .hot-strategy-r {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 #656565;
+    margin-bottom: 20px; }
+    .detail-manage-right .hot-designer-r .hot-title-d, .detail-manage-right .hot-strategy-r .hot-title-d {
+      margin: 10px;
+      display: flex;
+      justify-content: space-between; }
+      .detail-manage-right .hot-designer-r .hot-title-d span, .detail-manage-right .hot-designer-r .hot-title-d a, .detail-manage-right .hot-strategy-r .hot-title-d span, .detail-manage-right .hot-strategy-r .hot-title-d a {
+        font-size: 16px;
+        font-family: "Microsoft YaHei", "Arial", "黑体", sans-serif;
+        color: #9c713b; }
+
+.swiper-container {
+  width: 318px;
+  height: 300px;
+  margin: 20px auto; }
 
 /*# sourceMappingURL=strategy-manage.css.map */
