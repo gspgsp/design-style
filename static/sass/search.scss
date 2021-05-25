@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import "theme";
+
+.search-container {
+  min-height: 1205px;
+  .search-wrap{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    .search-i-box-w{
+      .search-i-box{
+        width: 800px;
+        height: 40px;
+        position: relative;
+        .search-i{
+          display: inline-block;
+          position: absolute;
+          width: 24px;
+          height: 24px;
+          top: 8px;
+        }
+        .search-input{
+          padding-left: 40px;
+        }
+      }
+      .search-d-btn{
+        width: 40px;
+      }
+    }
+  }
+}
