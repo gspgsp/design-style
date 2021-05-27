@@ -94,6 +94,19 @@ ul {
   left: 0;
   z-index: 6; }
 
+.white-space {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.white-space-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-wrap: break-word; }
+
 .detail-container {
   width: 1200px;
   margin: 20px auto; }
