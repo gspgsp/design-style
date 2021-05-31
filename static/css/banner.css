@@ -123,6 +123,36 @@
               display: block;
               font-size: 12px;
               color: #4D555D; }
+    .banner-container .nav-cont .nav-r-wrap {
+      display: flex;
+      align-items: center; }
+      .banner-container .nav-cont .nav-r-wrap .search-box {
+        width: 220px; }
+        .banner-container .nav-cont .nav-r-wrap .search-box .search-nav-icon {
+          height: 32px;
+          width: 32px;
+          margin-right: 22px;
+          position: relative; }
+          .banner-container .nav-cont .nav-r-wrap .search-box .search-nav-icon .search-nav-icon-i {
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url("../images/search.png");
+            background-repeat: no-repeat;
+            cursor: pointer; }
+        .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b {
+          position: relative; }
+          .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-h-ip {
+            width: 160px;
+            height: 32px;
+            font-size: 14px;
+            outline: none;
+            border: none;
+            color: #9c713b;
+            background-color: #fff; }
 
 .detail-nav {
   width: 100%;

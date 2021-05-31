@@ -158,6 +158,42 @@
         }
       }
     }
+    .nav-r-wrap{
+      display: flex;
+      align-items: center;
+      .search-box{
+        width: 220px;
+        .search-nav-icon{
+          height: 32px;
+          width: 32px;
+          margin-right: 22px;
+          position: relative;
+          .search-nav-icon-i{
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url("../images/search.png");
+            background-repeat: no-repeat;
+            cursor: pointer;
+          }
+        }
+        .search-h-ip-b{
+          position: relative;
+          .search-h-ip{
+            width: 160px;
+            height: 32px;
+            font-size: 14px;
+            outline: none;
+            border: none;
+            color: $theme-color;
+            background-color: #fff;
+          }
+        }
+      }
+    }
   }
 }
 
