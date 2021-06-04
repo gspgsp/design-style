@@ -163,10 +163,10 @@
       align-items: center;
       .search-box{
         width: 220px;
+        margin-right: 22px;
         .search-nav-icon{
           height: 32px;
           width: 32px;
-          margin-right: 22px;
           position: relative;
           .search-nav-icon-i{
             width: 24px;
@@ -183,13 +183,44 @@
         .search-h-ip-b{
           position: relative;
           .search-h-ip{
-            width: 160px;
+            width: 188px;
             height: 32px;
             font-size: 14px;
             outline: none;
             border: none;
             color: $theme-color;
             background-color: #fff;
+          }
+          .search-box-hi{
+            position: absolute;
+            width: 240px;
+            left: 0;
+            top: 54px;
+            box-sizing: border-box;
+            box-shadow: 0 8px 16px 0 $theme-color;
+            border-radius: 0 0 8px 8px;
+            padding: 10px 0 4px 0;
+            .search-hot-d{
+              padding: 0 12px 10px 12px;
+              .search-hot-p{
+                font-size: 12px;
+                line-height: 12px;
+                font-weight: 400;
+              }
+              .search-hot-list{
+                margin-top: 5px;
+                a{
+                  display: block;
+                  background: rgba(84,92,99,0.1);
+                  padding: 4px 12px;
+                  margin-right: 4px;
+                  color:rgba(120,125,130,1);
+                }
+              }
+            }
+            .search-latest-d{
+              padding: 12px;
+            }
           }
         }
       }

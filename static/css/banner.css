@@ -127,11 +127,11 @@
       display: flex;
       align-items: center; }
       .banner-container .nav-cont .nav-r-wrap .search-box {
-        width: 220px; }
+        width: 220px;
+        margin-right: 22px; }
         .banner-container .nav-cont .nav-r-wrap .search-box .search-nav-icon {
           height: 32px;
           width: 32px;
-          margin-right: 22px;
           position: relative; }
           .banner-container .nav-cont .nav-r-wrap .search-box .search-nav-icon .search-nav-icon-i {
             width: 24px;
@@ -146,13 +146,38 @@
         .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b {
           position: relative; }
           .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-h-ip {
-            width: 160px;
+            width: 188px;
             height: 32px;
             font-size: 14px;
             outline: none;
             border: none;
             color: #9c713b;
             background-color: #fff; }
+          .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi {
+            position: absolute;
+            width: 240px;
+            left: 0;
+            top: 54px;
+            box-sizing: border-box;
+            box-shadow: 0 8px 16px 0 #9c713b;
+            border-radius: 0 0 8px 8px;
+            padding: 10px 0 4px 0; }
+            .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-hot-d {
+              padding: 0 12px 10px 12px; }
+              .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-hot-d .search-hot-p {
+                font-size: 12px;
+                line-height: 12px;
+                font-weight: 400; }
+              .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-hot-d .search-hot-list {
+                margin-top: 5px; }
+                .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-hot-d .search-hot-list a {
+                  display: block;
+                  background: rgba(84, 92, 99, 0.1);
+                  padding: 4px 12px;
+                  margin-right: 4px;
+                  color: #787d82; }
+            .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-latest-d {
+              padding: 12px; }
 
 .detail-nav {
   width: 100%;
