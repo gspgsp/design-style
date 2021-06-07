@@ -152,7 +152,8 @@
             outline: none;
             border: none;
             color: #9c713b;
-            background-color: #fff; }
+            background-color: #fff;
+            display: none; }
           .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi {
             position: absolute;
             width: 240px;
@@ -161,7 +162,9 @@
             box-sizing: border-box;
             box-shadow: 0 8px 16px 0 #9c713b;
             border-radius: 0 0 8px 8px;
-            padding: 10px 0 4px 0; }
+            padding: 10px 0 4px 0;
+            background-color: #fff;
+            display: none; }
             .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-hot-d {
               padding: 0 12px 10px 12px; }
               .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-hot-d .search-hot-p {
@@ -169,15 +172,35 @@
                 line-height: 12px;
                 font-weight: 400; }
               .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-hot-d .search-hot-list {
-                margin-top: 5px; }
+                margin-top: 10px; }
                 .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-hot-d .search-hot-list a {
                   display: block;
                   background: rgba(84, 92, 99, 0.1);
                   padding: 4px 12px;
                   margin-right: 4px;
-                  color: #787d82; }
+                  color: #787d82;
+                  font-size: 12px;
+                  font-weight: 400;
+                  border-radius: 12px;
+                  margin-bottom: 5px; }
             .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-latest-d {
               padding: 12px; }
+              .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-latest-d .search-latest-p {
+                font-size: 12px;
+                line-height: 12px;
+                font-weight: 400; }
+              .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-latest-d .search-latest-list {
+                margin-top: 10px; }
+                .banner-container .nav-cont .nav-r-wrap .search-box .search-h-ip-b .search-box-hi .search-latest-d .search-latest-list a {
+                  display: block;
+                  background: rgba(84, 92, 99, 0.1);
+                  padding: 4px 12px;
+                  margin-right: 4px;
+                  color: #787d82;
+                  font-size: 12px;
+                  font-weight: 400;
+                  border-radius: 12px;
+                  margin-bottom: 5px; }
 
 .detail-nav {
   width: 100%;

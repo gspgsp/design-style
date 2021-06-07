@@ -190,6 +190,7 @@
             border: none;
             color: $theme-color;
             background-color: #fff;
+            display: none;
           }
           .search-box-hi{
             position: absolute;
@@ -200,6 +201,8 @@
             box-shadow: 0 8px 16px 0 $theme-color;
             border-radius: 0 0 8px 8px;
             padding: 10px 0 4px 0;
+            background-color: #fff;
+            display: none;
             .search-hot-d{
               padding: 0 12px 10px 12px;
               .search-hot-p{
@@ -208,18 +211,41 @@
                 font-weight: 400;
               }
               .search-hot-list{
-                margin-top: 5px;
+                margin-top: 10px;
                 a{
                   display: block;
                   background: rgba(84,92,99,0.1);
                   padding: 4px 12px;
                   margin-right: 4px;
                   color:rgba(120,125,130,1);
+                  font-size: 12px;
+                  font-weight: 400;
+                  border-radius: 12px;
+                  margin-bottom: 5px;
                 }
               }
             }
             .search-latest-d{
               padding: 12px;
+              .search-latest-p{
+                font-size: 12px;
+                line-height: 12px;
+                font-weight: 400;
+              }
+              .search-latest-list{
+                margin-top: 10px;
+                a{
+                  display: block;
+                  background: rgba(84,92,99,0.1);
+                  padding: 4px 12px;
+                  margin-right: 4px;
+                  color:rgba(120,125,130,1);
+                  font-size: 12px;
+                  font-weight: 400;
+                  border-radius: 12px;
+                  margin-bottom: 5px;
+                }
+              }
             }
           }
         }
