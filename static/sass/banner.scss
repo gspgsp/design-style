@@ -248,6 +248,28 @@
               }
             }
           }
+          .search-box-lenovo{
+            position: absolute;
+            width: 240px;
+            left: 0;
+            top: 54px;
+            box-sizing: border-box;
+            box-shadow: 0 8px 16px 0 $theme-color;
+            border-radius: 0 0 8px 8px;
+            background-color: #fff;
+            display: none;
+            a{
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 24px;
+              color:rgba(120,125,130,1);
+              padding-left: 14px;
+              display: block;
+            }
+            a:hover{
+              color: $theme-color;
+            }
+          }
         }
       }
     }
