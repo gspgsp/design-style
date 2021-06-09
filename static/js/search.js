@@ -1,4 +1,4 @@
-$(function () {
+;$(function () {
   if ($('.search-box').length > 0) {
 
     var req_url = '#';
