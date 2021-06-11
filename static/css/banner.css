@@ -39,8 +39,8 @@
           color: #4D555D;
           text-align: center; }
     .banner-container .nav-cont .after-login {
-      display: flex;
-      align-items: center;
+      /*display: flex;
+      align-items: center;*/
       height: 77px; }
       .banner-container .nav-cont .after-login .news-cont {
         margin: 0 20px 0 30px;
@@ -59,7 +59,12 @@
           border-radius: 4px;
           background-color: #F20D0D; }
       .banner-container .nav-cont .after-login .user-head-portrait {
-        position: relative; }
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
         .banner-container .nav-cont .after-login .user-head-portrait:hover .user-nav-box {
           display: block; }
         .banner-container .nav-cont .after-login .user-head-portrait .head-img-box {
@@ -78,7 +83,7 @@
           background-color: #ffffff;
           position: absolute;
           width: 330px;
-          top: 62px;
+          top: 76px;
           right: 0;
           border-radius: 0 0 8px 8px;
           display: none;

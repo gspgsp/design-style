@@ -53,8 +53,8 @@
       }
     }
     .after-login{
-      display: flex;
-      align-items: center;
+      /*display: flex;
+      align-items: center;*/
       height: 77px;
       .news-cont{
         margin: 0 20px 0 30px;
@@ -77,6 +77,11 @@
       }
       .user-head-portrait{
         position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         &:hover{
           .user-nav-box{
             display: block;
@@ -100,7 +105,7 @@
           background-color: #ffffff;
           position: absolute;
           width: 330px;
-          top: 62px;
+          top: 76px;
           right: 0;
           border-radius: 0 0 8px 8px;
           display: none;
